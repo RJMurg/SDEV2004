@@ -16,5 +16,12 @@ def index():
         }
     ]
     pagetitle = "Lab TWO"
-    print(labclasses)
     return render_template('index.html', pagetitle=pagetitle, user=user, labclasses=labclasses)
+
+@app.route('/labs')
+def labs():
+    return render_template('labs.html')
+
+@app.route('/ca')
+def ca():
+    return render_template('ca.html')
