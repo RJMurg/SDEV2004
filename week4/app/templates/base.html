@@ -2,6 +2,7 @@
 <html>
 <!DOCTYPE html>
 <html>
+    {% set lang_code = session["language"] %}
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -18,7 +19,7 @@
 
         <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
 
-
+        <link href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}" rel="stylesheet" />
     </head>
     <body>
         <h1 class="site-heading text-center text-faded d-none d-lg-block">
@@ -33,18 +34,18 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('index') }}">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('about') }}">About</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('products') }}">Products</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('store') }}">Store</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('index') }}">{{_('Home')}}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('about') }}">{{_('About')}}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('products') }}">{{_('Products')}}</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('store') }}">{{_('Store')}}</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="sidebar">
-            <a href="#">English&nbsp </a>
-            <a href="#">French&nbsp </a>
-            <a href="#">German&nbsp </a>
+            <a href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a>
+            <a href="{{ url_for('set_language', lang_code='fr') }}">{{_('French')}}</a>
+            <a href="{{ url_for('set_language', lang_code='de') }}">{{_('German')}}</a>
         </div>
 
 {% block main %}

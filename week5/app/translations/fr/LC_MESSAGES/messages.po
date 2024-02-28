@@ -1,0 +1,108 @@
+# French translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-28 08:42+0000\n"
+"PO-Revision-Date: 2023-02-28 13:38+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/about.html:25
+#, fuzzy
+msgid ""
+"We guarantee that you will fall in\n"
+"                                        <em>lust</em>\n"
+"                                        with our decadent blends the "
+"moment you inside until you finish your last sip. Join us for your\n"
+"                                        daily routine, an outing with "
+"friends, or simply just to enjoy some\n"
+"                                        alone time."
+msgstr ""
+"Nous garantissons que vous <em>désirez</em> nos mélanges décadents dès "
+"votre entrée jusqu'à ce que vous ayez fini votre dernière gorgée. "
+"Rejoignez-nous pour votre routine quotidienne, une sortie entre amis ou "
+"simplement pour profiter d'un moment seul."
+
+#: templates/about.html:33
+#, fuzzy
+msgid ""
+"We guarantee that you will\n"
+"                                        <em>yearn for</em>\n"
+"                                        our decadent blends the moment "
+"you inside until you finish your last sip. Join us for your\n"
+"                                        daily routine, an outing with "
+"friends, or simply just to enjoy some\n"
+"                                        alone time."
+msgstr ""
+"Nous garantissons que vous <em>aspirerez</em> à nos mélanges décadents "
+"dès votre entrée jusqu'à ce que vous ayez fini votre dernière gorgée. "
+"Rejoignez-nous pour votre routine quotidienne, une sortie entre amis ou "
+"simplement pour profiter d'un moment seul."
+
+#: templates/about.html:41
+#, fuzzy
+msgid ""
+"We guarantee that you will\n"
+"                                        <em>desire</em>\n"
+"                                        our decadent blends the moment "
+"you inside until you finish your last sip. Join us for your\n"
+"                                        daily routine, an outing with "
+"friends, or simply just to enjoy some\n"
+"                                        alone time."
+msgstr ""
+"Nous garantissons que vous <em>désirez</em> nos mélanges décadents dès "
+"votre entrée jusqu'à ce que vous ayez fini votre dernière gorgée. "
+"Rejoignez-nous pour votre routine quotidienne, une sortie entre amis ou "
+"simplement pour profiter d'un moment seul."
+
+#: templates/base.html:37
+msgid "Home"
+msgstr "Page d'accueil"
+
+#: templates/base.html:38
+msgid "About"
+msgstr "À propos"
+
+#: templates/base.html:39
+msgid "Products"
+msgstr "Des produits"
+
+#: templates/base.html:40
+msgid "Store"
+msgstr "Magasin"
+
+#: templates/base.html:46
+msgid "English"
+msgstr "Anglais"
+
+#: templates/base.html:47
+msgid "French"
+msgstr "Français"
+
+#: templates/base.html:48
+msgid "German"
+msgstr "Allemande"
+
+#~ msgid "Business Casual - Start Bootstrap Theme"
+#~ msgstr "Business Casual - Démarrer le thème Bootstrap"
+
+#~ msgid "A Free Bootstrap Business Theme"
+#~ msgstr "Un thème d'entreprise Bootstrap gratuit"
+
+#~ msgid "Business Casual"
+#~ msgstr "Vêtement décontracté"
+
+#~ msgid "Copyright Your Website 2022"
+#~ msgstr "Droits d'auteur Votre site Web 2022"
+
