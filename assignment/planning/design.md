@@ -1,0 +1,6 @@
+- Sleek, modern website
+- Low-frustration cookies, etc.
+- Language L10n
+- Differing photo & text content / focuses
+- Trip planners
+- Mobile-Support
