@@ -1,0 +1,25 @@
+<nav class="navbar" id="mainNav">
+    <div class="nav-section">
+        <a class="navbar-icon" href="{{url_for('index')}}">
+            <img class="nav-icon" src="{{url_for('static', filename='assets/img/waw-logo.png')}}">
+        </a>
+    </div>
+    <ul class="nav-elements nav-section">
+        <li><a class="nav-link text-uppercase" href="{{ url_for('index') }}">'HomeS</a></li>
+        <li><a class="nav-link text-uppercase" href="{{ url_for('about') }}">About</a></li>
+        <li><a class="nav-link text-uppercase" href="{{ url_for('products') }}">Products</a></li>
+        <li><a class="nav-link text-uppercase" href="{{ url_for('store') }}">Store</a></li>
+        <li>
+            <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="{{ url_for('static', filename='assets/img/globe.png') }}" alt="Language" width="20" height="20"> Select Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='fr') }}">{{_('French')}}</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='de') }}">{{ _('German')}}</a></li>
+                <!-- Add more language options as needed -->
+            </ul>
+        </li>
+    </ul>
+    <div class="nav-section"></div>
+</nav>
