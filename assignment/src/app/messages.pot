@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-19 15:11+0000\n"
+"POT-Creation-Date: 2024-04-17 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/about.html:11
+#: templates/base.html:31
+msgid "Made with ❤️ (and Flask) by Ruán Murgatroyd"
+msgstr ""
+
+#: templates/discover.html:16 templates/map.html:16 templates/planner.html:16
 msgid "Strong Coffee, Strong Roots"
 msgstr ""
 
-#: templates/about.html:12
+#: templates/discover.html:17 templates/map.html:17 templates/planner.html:17
 msgid "About Our Cafe"
 msgstr ""
 
-#: templates/about.html:14
+#: templates/discover.html:19 templates/map.html:19 templates/planner.html:19
 msgid ""
 "Founded in 1987 by the Hernandez brothers, our establishment has been "
 "serving up rich coffee sourced from artisan farmers in various regions of"
@@ -33,57 +37,101 @@ msgid ""
 "finding the best coffee, and bringing back to you here in our cafe."
 msgstr ""
 
-#: templates/about.html:18 templates/about.html:24
+#: templates/discover.html:23 templates/discover.html:29 templates/map.html:23
+#: templates/map.html:29 templates/planner.html:23 templates/planner.html:29
 msgid "We guarantee that you will fall in "
 msgstr ""
 
-#: templates/about.html:19
+#: templates/discover.html:24 templates/map.html:24 templates/planner.html:24
 msgid "love"
 msgstr ""
 
-#: templates/about.html:20 templates/about.html:26
+#: templates/discover.html:25 templates/discover.html:31 templates/map.html:25
+#: templates/map.html:31 templates/planner.html:25 templates/planner.html:31
 msgid ""
 "with our decadent blends the moment you walk inside until you finish your"
 " last sip. Join us for your daily routine, an outing with friends, or "
 "simply just to enjoy some alone time."
 msgstr ""
 
-#: templates/about.html:25
+#: templates/discover.html:30 templates/map.html:30 templates/planner.html:30
 msgid "lust"
 msgstr ""
 
-#: templates/about.html:30 templates/about.html:36
+#: templates/discover.html:35 templates/discover.html:41 templates/map.html:35
+#: templates/map.html:41 templates/planner.html:35 templates/planner.html:41
 msgid "We guarantee that you will "
 msgstr ""
 
-#: templates/about.html:31
+#: templates/discover.html:36 templates/map.html:36 templates/planner.html:36
 msgid "yearn for"
 msgstr ""
 
-#: templates/about.html:32 templates/about.html:38
+#: templates/discover.html:37 templates/discover.html:43 templates/map.html:37
+#: templates/map.html:43 templates/planner.html:37 templates/planner.html:43
 msgid ""
 "our decadent blends the moment you walk inside until you finish your last"
 " sip. Join us for your daily routine, an outing with friends, or simply "
 "just to enjoy some alone time."
 msgstr ""
 
-#: templates/about.html:37
+#: templates/discover.html:42 templates/map.html:42 templates/planner.html:42
 msgid "desire"
 msgstr ""
 
-#: templates/base.html:37
-msgid "Home"
+#: templates/includes/de/navbar.html:9 templates/includes/fr/navbar.html:9
+msgid "Routes"
 msgstr ""
 
-#: templates/base.html:46 templates/base.html:57
+#: templates/includes/de/navbar.html:12 templates/includes/fr/navbar.html:12
+msgid "Discover"
+msgstr ""
+
+#: templates/includes/de/navbar.html:15 templates/includes/fr/navbar.html:15
+msgid "Plan"
+msgstr ""
+
+#: templates/includes/de/navbar.html:18 templates/includes/fr/navbar.html:18
+msgid "Shop"
+msgstr ""
+
+#: templates/includes/de/navbar.html:23 templates/includes/fr/navbar.html:23
+msgid "Map"
+msgstr ""
+
+#: templates/includes/de/navbar.html:33 templates/includes/en/navbar.html:33
+#: templates/includes/fr/navbar.html:33
+#: templates/includes/includes/de/navbar.html:16
+#: templates/includes/includes/en/navbar.html:16
+#: templates/includes/includes/fr/navbar.html:16
 msgid "English"
 msgstr ""
 
-#: templates/base.html:47 templates/base.html:58
+#: templates/includes/de/navbar.html:34 templates/includes/en/navbar.html:34
+#: templates/includes/fr/navbar.html:34
+#: templates/includes/includes/de/navbar.html:17
+#: templates/includes/includes/en/navbar.html:17
+#: templates/includes/includes/fr/navbar.html:17
 msgid "French"
 msgstr ""
 
-#: templates/base.html:48 templates/base.html:59
+#: templates/includes/de/navbar.html:35 templates/includes/en/navbar.html:35
+#: templates/includes/fr/navbar.html:35
+#: templates/includes/includes/de/navbar.html:18
+#: templates/includes/includes/en/navbar.html:18
+#: templates/includes/includes/fr/navbar.html:18
 msgid "German"
+msgstr ""
+
+#: templates/includes/includes/de/navbar.html:7
+#: templates/includes/includes/en/navbar.html:7
+#: templates/includes/includes/fr/navbar.html:7
+msgid "Home"
+msgstr ""
+
+#: templates/includes/includes/de/navbar.html:13
+#: templates/includes/includes/en/navbar.html:13
+#: templates/includes/includes/fr/navbar.html:13
+msgid "Select Language"
 msgstr ""
 

@@ -6,21 +6,21 @@
     </div>
     <ul class="nav-elements nav-section">
         <li>
-            <a class="nav-link" href="{{ url_for('routes') }}">Routes</a>
+            <a class="nav-link" href="{{ url_for('routes') }}">{{_('Routes')}}</a>
         </li>
         <li>
-            <a class="nav-link" href="{{ url_for('discover') }}">Discover</a>
+            <a class="nav-link" href="{{ url_for('discover') }}">{{_('Discover')}}</a>
         </li>
         <li>
-            <a class="nav-link" href="{{ url_for('planner') }}">Plan</a>
+            <a class="nav-link" href="{{ url_for('planner') }}">{{_('Plan')}}</a>
         </li>
         <li>
-            <a class="nav-link" href="{{ url_for('shop') }}">Shop</a>
+            <a class="nav-link" href="{{ url_for('shop') }}">{{_('Shop')}}</a>
         </li>
         <li>
             <a class="nav-link" href="{{ url_for('map') }}">
                 <i class="fa-regular fa-map"></i>
-                Map
+                {{_('Map')}}
             </a>
         </li>
         <li class="language-selector">
