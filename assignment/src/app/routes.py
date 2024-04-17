@@ -12,17 +12,25 @@ def set_session_language():
 def index():
     return (render_template("index.html"))
 
-@app.route('/about')
-def about():
-    return (render_template ("about.html"))
+@app.route('/routes')
+def routes():
+    return (render_template ("routes.html"))
 
-@app.route('/products')
-def products():
-        return (render_template ("products.html"))
+@app.route('/discover')
+def discover():
+    return (render_template ("discover.html"))
 
-@app.route('/store')
-def store():
-        return (render_template ("store.html"))
+@app.route('/shop')
+def shop():
+    return (render_template ("shop.html"))
+    
+@app.route('/planner')
+def planner():
+    return (render_template ("planner.html"))
+
+@app.route('/map')
+def map():
+    return (render_template ("map.html"))
 
 @app.route('/setlang/<lang_code>')
 def set_language(lang_code):

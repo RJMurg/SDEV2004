@@ -1,10 +1,24 @@
-/*!
-* Start Bootstrap - Business Casual v7.0.8 (https://startbootstrap.com/theme/business-casual)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
-*/
-// Highlights current date on contact page
 window.addEventListener('DOMContentLoaded', event => {
     const listHoursArray = document.body.querySelectorAll('.list-hours li');
     listHoursArray[new Date().getDay()].classList.add(('today'));
 })
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function toggleDropdown() {
+    document.getElementById("language-dropdown").classList;
+}
+  
+  // Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropdown-button')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+} 

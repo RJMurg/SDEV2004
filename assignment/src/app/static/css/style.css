@@ -32,8 +32,7 @@ body{
     font-family: 'Raleway Dots';
 }
 
-.navbar{
-    overflow: hidden;
+.navbar{    
     position: fixed;
     top: 0;
     width: 100%;
@@ -47,21 +46,95 @@ body{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .nav-icon{
     width: 15rem;
     margin: 0;
-    padding-left: 2rem;
 }
 
 .nav-section{
-    width: max-content;
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-elements{
     display: flex;
-    flex-direction: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+nav div{
+    width: 3rem;
+}
+
+nav ul{
+    width: 100% !important;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+.dropdown-button{
+    background: none;
+    border: 0;
+    font-size: 1.5rem;
+}
+
+.dropdown-button:hover{
+    cursor: pointer;
+}
+
+a{
+    color: var(--grey-0);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+a:hover{
+    color: var(--accent-0);
+    font-size: 1.75rem;
+    transition: 0.5s ease-in-out;
+}
+
+.language-selector div{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-menu{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: auto;
+    display: none !important;
+    position: absolute;
+}
+
+.dropdown-menu a{
+    display: block;
+}
+
+.show{
+    display: block !important;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
