@@ -1,16 +1,16 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# Translations template for SDEV2004 Project Submission.
+# Copyright (C) 2024 Ruán Murgatroyd
+# This file is distributed under the same license as the SDEV2004 Project Submission project.
+# Ruán Murgatroyd (ruan@murgatroyd.me), 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Project-Id-Version: v1\n"
+"Report-Msgid-Bugs-To: ruan@murgatroyd.me\n"
 "POT-Creation-Date: 2024-04-21 19:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Ruán Murgatroyd ruan@murgatroyd.me\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
