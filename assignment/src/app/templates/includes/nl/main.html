@@ -87,25 +87,13 @@
 
 <div class="halfwide paddedbox horizontal">
     <div class="halfwide">
-        {{_('The Wild Atlantic Way route from start to finish unfolds the wonders of nature,
-        the power of the ocean and its imprint on the west coast of Ireland,
-        and the stunning countryside in all its diversity.
-        Enchanting villages are nestled along the coast as well as ancient monuments, 
-        their origins having long sunk into the mists of oblivion dot the landscape.
-        Behind every bend on this magical coastal road a new delight awaits.')}}
+        {{_('The Wild Atlantic Way route from start to finish unfolds the wonders of nature, the power of the ocean and its imprint on the west coast of Ireland, and the stunning countryside in all its diversity. Enchanting villages are nestled along the coast as well as ancient monuments, their origins having long sunk into the mists of oblivion dot the landscape. Behind every bend on this magical coastal road a new delight awaits.')}}
         
         <br>
         <br>
         <br>
 
-        {{_('The wild Atlantic with its unrestrained and untameable tides and storms, 
-        has continuously been moulding the west coast of Ireland.
-        With a constant meeting of water and land,
-        a deeply indented and wild terrain has emerged with towering cliffs,
-        spellbinding bays and beaches, mystical islands, always changing and never reaching the end.
-        In the isolation or perhaps expressed in a different way,
-        living near and with the Atlantic at your doorstep has ensured that old traditions and the Irish language have been preserved.
-        A trip along the Wild Atlantic Way is also an encounter with the past.')}}
+        {{_('The wild Atlantic with its unrestrained and untameable tides and storms, has continuously been moulding the west coast of Ireland. With a constant meeting of water and land, a deeply indented and wild terrain has emerged with towering cliffs, spellbinding bays and beaches, mystical islands, always changing and never reaching the end. In the isolation or perhaps expressed in a different way, living near and with the Atlantic at your doorstep has ensured that old traditions and the Irish language have been preserved. A trip along the Wild Atlantic Way is also an encounter with the past.')}}
 
         <br>
         <br>
@@ -165,7 +153,7 @@
     </h1>
 
     <p class="bold medium">
-        {{-('Use our handy travel planner to plan your life-changing road trip!')}}
+        {{_('Use our handy travel planner to plan your life-changing road trip!')}}
     </p>
 
     <form class="halfwide" action="/planner" method="POST">
@@ -173,7 +161,7 @@
 
             <div class="override">
                 <label for="start" class="bold">
-                    Starting Location
+                    {{_('Starting Location')}}
                 </label>
                 <select name="start">
                     <option value="achill_island_and_clew_bay">Achill Island and Clew Bay</option>
@@ -194,7 +182,7 @@
             
             <div class="override">
                 <label for="finish" class="bold">
-                    Ending Location
+                    {{_('Ending Location')}}
                 </label>
                 <select name="finish">
                     <option value="achill_island_and_clew_bay">Achill Island and Clew Bay</option>
