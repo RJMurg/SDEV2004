@@ -10,8 +10,10 @@ document.querySelector('.hero-button').addEventListener('click', function() {
 });
 
 function toggleDropdown() {
-    document.getElementById("language-dropdown").classList;
+    var dropdown = document.getElementById("language-dropdown");
+    dropdown.classList.toggle('show');
 }
+
 
 window.onclick = function(event) {
     if (!event.target.matches('.dropdown-button')) {
