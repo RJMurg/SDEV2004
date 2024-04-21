@@ -14,7 +14,6 @@
         <script src="https://use.fontawesome.com/releases/v6.5.2/js/all.js" crossorigin="anonymous"></script>
 
         <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
-
         <link href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}" rel="stylesheet" />
     </head>
     <body>
@@ -33,8 +32,6 @@
             {{_('Made with ❤️ (and Flask) by Ruán Murgatroyd')}}
         </p>
     </footer>
-<!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 
