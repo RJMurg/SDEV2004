@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-21 15:26+0100\n"
+"POT-Creation-Date: 2024-04-21 19:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/base.html:31
+#: templates/base.html:33
 msgid "Made with ❤️ (and Flask) by Ruán Murgatroyd"
 msgstr ""
 
@@ -79,38 +79,126 @@ msgstr ""
 msgid "desire"
 msgstr ""
 
-#: templates/includes/de/navbar.html:9 templates/includes/kr/navbar.html:9
+#: templates/includes/en/hero.html:21
+msgid "The Wild Atlantic Way"
+msgstr ""
+
+#: templates/includes/en/main.html:56
+msgid "Welcome to the Wild Atlantic Way!"
+msgstr ""
+
+#: templates/includes/en/main.html:60
+msgid ""
+"The Wild Atlantic Way, 2,600km in length,\n"
+"        is one of the longest defined coastal routes in the world.\n"
+"        It winds its way all along the Irish West Coast from the "
+"Inishowen Peninsula in the north,\n"
+"        down to the picturesque town of Kinsale, County Cork in the south."
+msgstr ""
+
+#: templates/includes/en/main.html:69
+msgid "Discover the Wild Atlantic Way"
+msgstr ""
+
+#: templates/includes/en/main.html:73
+msgid "Enjoy the road trip of your life, and discover the Wild Atlantic Way"
+msgstr ""
+
+#: templates/includes/en/main.html:82
+msgid "Discover Today!"
+msgstr ""
+
+#: templates/includes/en/main.html:90
+msgid ""
+"The Wild Atlantic Way route from start to finish unfolds the wonders of "
+"nature,\n"
+"        the power of the ocean and its imprint on the west coast of "
+"Ireland,\n"
+"        and the stunning countryside in all its diversity.\n"
+"        Enchanting villages are nestled along the coast as well as "
+"ancient monuments, \n"
+"        their origins having long sunk into the mists of oblivion dot the"
+" landscape.\n"
+"        Behind every bend on this magical coastal road a new delight "
+"awaits."
+msgstr ""
+
+#: templates/includes/en/main.html:101
+msgid ""
+"The wild Atlantic with its unrestrained and untameable tides and storms,"
+" \n"
+"        has continuously been moulding the west coast of Ireland.\n"
+"        With a constant meeting of water and land,\n"
+"        a deeply indented and wild terrain has emerged with towering "
+"cliffs,\n"
+"        spellbinding bays and beaches, mystical islands, always changing "
+"and never reaching the end.\n"
+"        In the isolation or perhaps expressed in a different way,\n"
+"        living near and with the Atlantic at your doorstep has ensured "
+"that old traditions and the Irish language have been preserved.\n"
+"        A trip along the Wild Atlantic Way is also an encounter with the "
+"past."
+msgstr ""
+
+#: templates/includes/en/main.html:116
+msgid "The Wild Atlantic Way Route"
+msgstr ""
+
+#: templates/includes/en/main.html:127
+msgid "Must-See Sights of the Wild Atlantic Way"
+msgstr ""
+
+#: templates/includes/en/main.html:131
+msgid ""
+"Need inspiration? Explore some of the must-see highlights of the Wild "
+"Atlantic Way:"
+msgstr ""
+
+#: templates/includes/en/main.html:164
+msgid "Your Wild Atlantic Way Travel Guide"
+msgstr ""
+
+#: templates/includes/en/main.html:219
+msgid "Submit!"
+msgstr ""
+
+#: templates/includes/en/navbar.html:9 templates/includes/ko_kr/navbar.html:9
+#: templates/includes/nl/navbar.html:9
 msgid "Routes"
 msgstr ""
 
-#: templates/includes/de/navbar.html:12 templates/includes/kr/navbar.html:12
+#: templates/includes/en/navbar.html:12 templates/includes/ko_kr/navbar.html:12
+#: templates/includes/nl/navbar.html:12
 msgid "Discover"
 msgstr ""
 
-#: templates/includes/de/navbar.html:15 templates/includes/kr/navbar.html:15
+#: templates/includes/en/navbar.html:15 templates/includes/ko_kr/navbar.html:15
+#: templates/includes/nl/navbar.html:15
 msgid "Plan"
 msgstr ""
 
-#: templates/includes/de/navbar.html:18 templates/includes/kr/navbar.html:18
+#: templates/includes/en/navbar.html:18 templates/includes/ko_kr/navbar.html:18
+#: templates/includes/nl/navbar.html:18
 msgid "Shop"
 msgstr ""
 
-#: templates/includes/de/navbar.html:23 templates/includes/kr/navbar.html:23
+#: templates/includes/en/navbar.html:23 templates/includes/ko_kr/navbar.html:23
+#: templates/includes/nl/navbar.html:23
 msgid "Map"
 msgstr ""
 
-#: templates/includes/de/navbar.html:33 templates/includes/en/navbar.html:33
-#: templates/includes/kr/navbar.html:33
+#: templates/includes/en/navbar.html:33 templates/includes/ko_kr/navbar.html:33
+#: templates/includes/nl/navbar.html:33
 msgid "English"
 msgstr ""
 
-#: templates/includes/de/navbar.html:34 templates/includes/en/navbar.html:34
-#: templates/includes/kr/navbar.html:34
+#: templates/includes/en/navbar.html:34 templates/includes/ko_kr/navbar.html:34
+#: templates/includes/nl/navbar.html:34
 msgid "Korean"
 msgstr ""
 
-#: templates/includes/de/navbar.html:35 templates/includes/en/navbar.html:35
-#: templates/includes/kr/navbar.html:35
-msgid "German"
+#: templates/includes/en/navbar.html:35 templates/includes/ko_kr/navbar.html:35
+#: templates/includes/nl/navbar.html:35
+msgid "Dutch"
 msgstr ""
 
