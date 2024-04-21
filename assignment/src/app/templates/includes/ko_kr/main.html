@@ -1,0 +1,222 @@
+<style>
+    .notable-sight {
+        width: 20rem;
+        height: 20rem;
+        background-size: cover;
+        background-position: center;
+        margin: 1rem;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+    
+    .notable-sight:nth-child(1) {
+        background-image: url('{{ url_for('static', filename='assets/img/baltimore-beacon.webp') }}');
+    }
+    .notable-sight:nth-child(2) {
+        background-image: url('{{ url_for('static', filename='assets/img/slieve-league.webp') }}'); /* Replace with actual image paths */
+    }
+    .notable-sight:nth-child(3) {
+        background-image: url('{{ url_for('static', filename='assets/img/fanad-head.webp') }}');
+    }
+    .notable-sight:nth-child(4) {
+        background-image: url('{{ url_for('static', filename='assets/img/cliffs-of-moher.webp') }}');
+    }
+
+    .discoverbox{
+        background: url("{{ url_for('static', filename='assets/img/' + lang_code +'/pic2.webp') }}");
+
+        /* Full height */
+        min-height: 500px;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .planbox{
+        background: url("{{ url_for('static', filename='assets/img/' + lang_code +'/pic3.webp') }}");
+
+        /* Full height */
+        min-height: 500px;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<div class="paddedbox" id="main">
+    <h1 class="title medium">
+        {{_('Welcome to the Wild Atlantic Way!')}}
+    </h1>
+
+    <p class="halfwide">
+        {{_('The Wild Atlantic Way, 2,600km in length,
+        is one of the longest defined coastal routes in the world.
+        It winds its way all along the Irish West Coast from the Inishowen Peninsula in the north,
+        down to the picturesque town of Kinsale, County Cork in the south.')}}
+    </p>
+</div>
+
+<div class="discoverbox halfwide paddedbox">
+    <h1 class="title large white">
+        {{_('Discover the Wild Atlantic Way')}}
+    </h1>
+
+    <p class="medium white bold">
+        {{_('Enjoy the road trip of your life, and discover the Wild Atlantic Way')}}
+
+        <br>
+        <br>
+        <br>
+
+        <form action="/discover">
+            <button class="discoverbutton large">
+                <i class="fa-solid fa-compass"></i>
+                {{_('Discover Today!')}}
+            </button>
+        </form>
+    </p>
+</div>
+
+<div class="halfwide paddedbox horizontal">
+    <div class="halfwide">
+        {{_('The Wild Atlantic Way route from start to finish unfolds the wonders of nature,
+        the power of the ocean and its imprint on the west coast of Ireland,
+        and the stunning countryside in all its diversity.
+        Enchanting villages are nestled along the coast as well as ancient monuments, 
+        their origins having long sunk into the mists of oblivion dot the landscape.
+        Behind every bend on this magical coastal road a new delight awaits.')}}
+        
+        <br>
+        <br>
+        <br>
+
+        {{_('The wild Atlantic with its unrestrained and untameable tides and storms, 
+        has continuously been moulding the west coast of Ireland.
+        With a constant meeting of water and land,
+        a deeply indented and wild terrain has emerged with towering cliffs,
+        spellbinding bays and beaches, mystical islands, always changing and never reaching the end.
+        In the isolation or perhaps expressed in a different way,
+        living near and with the Atlantic at your doorstep has ensured that old traditions and the Irish language have been preserved.
+        A trip along the Wild Atlantic Way is also an encounter with the past.')}}
+
+        <br>
+        <br>
+        <br>
+
+        <a href="/routes" class="blue">
+            <i class="fa-solid fa-arrow-right"></i>
+            {{_('The Wild Atlantic Way Route')}}
+        </a>
+    </div>
+
+    <div class="halfwide">
+        <img src="{{ url_for('static', filename='assets/img/waw-map.png') }}"/>
+    </div>
+</div>
+
+<div class="sightsbox paddedbox">
+    <h1 class="title medium nogap">
+        {{_('Must-See Sights of the Wild Atlantic Way')}}
+    </h1>
+
+    <p class="halfwide nogap">
+        {{_('Need inspiration? Explore some of the must-see highlights of the Wild Atlantic Way:')}}
+    </p>
+
+    <div class="halfwide horizontal">
+
+        <div class="notable-sight">
+            <div class="caption">
+                Baltimore Beacon
+            </div>
+        </div>
+
+        <div class="notable-sight">
+            <div class="caption">
+                Slieve League
+            </div>
+        </div>
+
+        <div class="notable-sight">
+            <div class="caption">
+                Fanad Head
+            </div>
+        </div>
+
+        <div class="notable-sight">
+            <div class="caption">
+                Cliffs of Moher
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="planbox paddedbox">
+    <h1 class="title large">
+        {{_('Your Wild Atlantic Way Travel Guide')}}
+    </h1>
+
+    <p class="bold medium">
+        {{-('Use our handy travel planner to plan your life-changing road trip!')}}
+    </p>
+
+    <form class="halfwide" action="/planner" method="POST">
+        <div class="horizontal">
+
+            <div class="override">
+                <label for="start" class="bold">
+                    Starting Location
+                </label>
+                <select name="start">
+                    <option value="achill_island_and_clew_bay">Achill Island and Clew Bay</option>
+                    <option value="beara_and_sheeps_head">Beara and Sheep's Head</option>
+                    <option value="connemara">Connemara</option>
+                    <option value="dingle_peninsula">Dingle Peninsula</option>
+                    <option value="donegal_bay_and_sligo">Donegal Bay and Sligo</option>
+                    <option value="erris">Erris</option>
+                    <option value="fanad_head">Fanad Head</option>
+                    <option value="inishowen_peninsula">Inishowen Peninsula</option>
+                    <option value="killary_harbour">Killary Harbour</option>
+                    <option value="ring_of_kerry">Ring of Kerry</option>
+                    <option value="the_burren_and_west_clare">The Burren and West Clare</option>
+                    <option value="the_shannon_estuary">The Shannon Estuary</option>
+                    <option value="west_cork">West Cork</option>
+                </select>
+            </div>
+            
+            <div class="override">
+                <label for="finish" class="bold">
+                    Ending Location
+                </label>
+                <select name="finish">
+                    <option value="achill_island_and_clew_bay">Achill Island and Clew Bay</option>
+                    <option value="beara_and_sheeps_head">Beara and Sheep's Head</option>
+                    <option value="connemara">Connemara</option>
+                    <option value="dingle_peninsula">Dingle Peninsula</option>
+                    <option value="donegal_bay_and_sligo">Donegal Bay and Sligo</option>
+                    <option value="erris">Erris</option>
+                    <option value="fanad_head">Fanad Head</option>
+                    <option value="inishowen_peninsula">Inishowen Peninsula</option>
+                    <option value="killary_harbour">Killary Harbour</option>
+                    <option value="ring_of_kerry">Ring of Kerry</option>
+                    <option value="the_burren_and_west_clare">The Burren and West Clare</option>
+                    <option value="the_shannon_estuary">The Shannon Estuary</option>
+                    <option value="west_cork">West Cork</option>
+                </select>
+            </div>
+        </div>
+
+        <button class="medium">
+            <i class="fa-solid fa-location-dot"></i>
+            {{_('Submit!')}}
+        </button>
+    </form>
+</div>
