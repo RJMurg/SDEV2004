@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --grey-0: #131515;
-    --grey-1: #1b1d1c;
-    --grey-2: #222423;
-    --grey-3: #313330;
-    --grey-4: #4E504B;
-    --grey-5: #898A81;
-    --grey-6: #A7A89C;
-    --grey-7: #FFFFEC;
+    --grey-0: rgb(19, 21, 21);
+    --grey-1: rgb(27, 29, 28);
+    --grey-2: rgb(34, 36, 35);
+    --grey-3: rgb(49, 51, 48);
+    --grey-4: rgb(78, 80, 75);
+    --grey-5: rgb(137, 138, 129);
+    --grey-6: rgb(167, 168, 156);
+    --grey-7: rgb(255, 255, 236);
 
-    --accent-0: #072F5F;
-    --accent-1: #157A3D;
-    --accent-2: #855E42;
-    --accent-3: #A9A9A9;
-    --accent-4: #F2C14E;
-    --accent-5: #F28F3B;
+    --accent-0: rgb(7, 47, 95);
+    --accent-1: rgb(21, 122, 61);
+    --accent-2: rgb(133, 94, 66);
+    --accent-3: rgb(169, 169, 169);
+    --accent-4: rgb(242, 193, 78);
+    --accent-5: rgb(242, 143, 59);
 }
 
 html,
@@ -26,6 +26,40 @@ body{
     width: 100%;
     height: 100%;
     font-family: 'Raleway';
+
+    text-align: center;
+}
+
+.white{
+    color: var(--grey-7);
+}
+
+.black{
+    color: var(--grey-0);
+}
+
+.blue{
+    color: var(--accent-0)
+}
+
+.green{
+    color: var(--accent-1)
+}
+
+.brown{
+    color: var(--accent-2)
+}
+
+.grey{
+    color: var(--accent-3)
+}
+
+.yellow{
+    color: var(--accent-4)
+}
+
+.orange{
+    color: var(--accent-5)
 }
 
 .dotted{
@@ -48,6 +82,11 @@ body{
     -webkit-backdrop-filter: blur( 4.5px );
     border-radius: 0px 0px 10px 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.nogap{
+    padding: 0;
+    margin: 0;
 }
 
 .nav-icon{
@@ -131,6 +170,173 @@ a:hover{
 
 .show{
     display: block !important;
+}
+
+.hero-box{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+	font-weight: 800;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+.xlarge {
+	font-size: 5rem;
+}
+
+.large {
+	font-size: 3rem;
+}
+
+.medium {
+	font-size: 2rem;
+}
+
+.small {
+	font-size: 0.75rem;
+}
+
+.xsmall {
+	font-size: 0.5rem;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: 800;
+}
+
+.halfwide{
+    width: 50%;
+    margin: auto;
+}
+
+.paddedbox{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.hero-button{
+    bottom: 5rem;
+    position: absolute;
+    animation: bounce 2s infinite;
+    cursor: pointer;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+
+    40%{
+        transform: translateY(-20px);
+    }
+
+    60%{
+        transform: translateY(-10px);
+    }
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+button{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 1rem;
+    cursor: pointer;
+}
+
+button svg{
+    color: var(--accent-0);
+    stroke: var(--grey-0);
+    stroke-width: 1rem;
+}
+
+.caption{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 2rem;
+    color: var(--grey-7);
+    background-color: rgba(19, 21, 21, 0.5);
+}
+
+.planbox{
+    background: var(--grey-6);
+}
+
+.form-horizontal{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+select{
+    padding: 1rem;
+    width: 100%;
+    border-radius: 15px;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    font-size: 1.5rem;
+}
+
+label{
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.override{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 footer{

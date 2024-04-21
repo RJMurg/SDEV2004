@@ -6,21 +6,21 @@
     </div>
     <ul class="nav-elements nav-section">
         <li>
-            <a class="nav-link" href="{{ url_for('routes') }}">Routes</a>
+            <a class="nav-link" href="{{ url_for('routes') }}">{{_('Routes')}}</a>
         </li>
         <li>
-            <a class="nav-link" href="{{ url_for('discover') }}">Discover</a>
+            <a class="nav-link" href="{{ url_for('discover') }}">{{_('Discover')}}</a>
         </li>
         <li>
-            <a class="nav-link" href="{{ url_for('planner') }}">Plan</a>
+            <a class="nav-link" href="{{ url_for('planner') }}">{{_('Plan')}}</a>
         </li>
         <li>
-            <a class="nav-link" href="{{ url_for('shop') }}">Shop</a>
+            <a class="nav-link" href="{{ url_for('shop') }}">{{_('Shop')}}</a>
         </li>
         <li>
             <a class="nav-link" href="{{ url_for('map') }}">
                 <i class="fa-regular fa-map"></i>
-                Map
+                {{_('Map')}}
             </a>
         </li>
         <li class="language-selector">
@@ -31,8 +31,8 @@
             </button>
             <div class="dropdown-menu" id="language-dropdown" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a>
-                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='fr') }}">{{_('French')}}</a>
-                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='de') }}">{{ _('German')}}</a>
+                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='ko_kr') }}">{{_('Korean')}}</a>
+                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='nl') }}">{{ _('Dutch')}}</a>
             </div>
         </li>
     </ul>

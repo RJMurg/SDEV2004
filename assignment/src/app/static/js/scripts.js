@@ -1,15 +1,18 @@
-window.addEventListener('DOMContentLoaded', event => {
-    const listHoursArray = document.body.querySelectorAll('.list-hours li');
-    listHoursArray[new Date().getDay()].classList.add(('today'));
-})
+document.querySelector('.hero-button').addEventListener('click', function() {
+    var mainElement = document.getElementById('main');
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+    var topPosition = mainElement.offsetTop;
+
+    window.scrollTo({
+        top: topPosition,
+        behavior: 'smooth'
+    });
+});
+
 function toggleDropdown() {
     document.getElementById("language-dropdown").classList;
 }
-  
-  // Close the dropdown menu if the user clicks outside of it
+
 window.onclick = function(event) {
     if (!event.target.matches('.dropdown-button')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");

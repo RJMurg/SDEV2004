@@ -1,25 +1,27 @@
-<div>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    hai
-    <br>
-    
+<style>
+    .hero-box{
+        background: url("{{ url_for('static', filename='assets/img/' + lang_code +'/pic1.webp') }}");
+
+        /* Full height */
+        height: 100%;
+        min-height: 500px;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+
+<div class="hero-box">
+    <h1 class="title xlarge white">
+        {{_('The Wild Atlantic Way')}}
+    </h1>
+
+    <div class="hero-button">
+        <i class="fa-solid fa-chevron-down large white"></i>
+    </div>
 </div>
