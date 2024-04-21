@@ -23,6 +23,3 @@ babel.init_app(app, locale_selector=get_locale)
 
 #Import your routes (you need to configure these in routes.py)
 from app import routes
-
-if __name__ == "__main__":
-    app.run
