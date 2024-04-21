@@ -1,0 +1,40 @@
+<nav class="navbar" id="mainNav">
+    <div class="nav-section">
+        <a class="navbar-icon" href="{{url_for('index')}}">
+            <img class="nav-icon" src="{{url_for('static', filename='assets/img/waw-logo.png')}}">
+        </a>
+    </div>
+    <ul class="nav-elements nav-section">
+        <li>
+            <a class="nav-link" href="{{ url_for('routes') }}">{{_('Routes')}}</a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ url_for('discover') }}">{{_('Discover')}}</a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ url_for('planner') }}">{{_('Plan')}}</a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ url_for('shop') }}">{{_('Shop')}}</a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ url_for('map') }}">
+                <i class="fa-regular fa-map"></i>
+                {{_('Map')}}
+            </a>
+        </li>
+        <li class="language-selector">
+            <button class="dropdown-button" onclick="toggleDropdown()" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-language"></i>
+                Language
+                <i class="fa-solid fa-caret-down"></i>
+            </button>
+            <div class="dropdown-menu" id="language-dropdown" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a>
+                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='ko_kr') }}">{{_('Korean')}}</a>
+                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='nl') }}">{{ _('Dutch')}}</a>
+            </div>
+        </li>
+    </ul>
+    <div class="nav-section"></div>
+</nav>
