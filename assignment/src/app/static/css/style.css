@@ -424,6 +424,34 @@ label{
     justify-content: left;
 }
 
+table {
+    width: 80%;
+    margin: auto;
+
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+th, td {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 8px;
+    text-align: center;
+}
+
+thead{
+    border-radius: 10px, 10px, 0, 0;
+}
+
+th {
+    background: rgba(255, 255, 255, 0.5);
+}
+
 footer{
     display: flex;
     justify-content: center;

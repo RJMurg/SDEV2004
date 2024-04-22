@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-21 20:26+0100\n"
+"POT-Creation-Date: 2024-04-22 22:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,70 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/base.html:33
+#: templates/base.html:32
 msgid "Made with ❤️ (and Flask) by Ruán Murgatroyd"
 msgstr ""
 
-#: templates/discover.html:16 templates/planner.html:16
-msgid "Strong Coffee, Strong Roots"
-msgstr ""
-
-#: templates/discover.html:17 templates/planner.html:17
-msgid "About Our Cafe"
-msgstr ""
-
-#: templates/discover.html:19 templates/planner.html:19
-msgid ""
-"Founded in 1987 by the Hernandez brothers, our establishment has been "
-"serving up rich coffee sourced from artisan farmers in various regions of"
-" South and Central America. We are dedicated to travelling the world, "
-"finding the best coffee, and bringing back to you here in our cafe."
-msgstr ""
-
-#: templates/discover.html:23 templates/discover.html:29
-#: templates/planner.html:23 templates/planner.html:29
-msgid "We guarantee that you will fall in "
-msgstr ""
-
-#: templates/discover.html:24 templates/planner.html:24
-msgid "love"
-msgstr ""
-
-#: templates/discover.html:25 templates/discover.html:31
-#: templates/planner.html:25 templates/planner.html:31
-msgid ""
-"with our decadent blends the moment you walk inside until you finish your"
-" last sip. Join us for your daily routine, an outing with friends, or "
-"simply just to enjoy some alone time."
-msgstr ""
-
-#: templates/discover.html:30 templates/planner.html:30
-msgid "lust"
-msgstr ""
-
-#: templates/discover.html:35 templates/discover.html:41
-#: templates/planner.html:35 templates/planner.html:41
-msgid "We guarantee that you will "
-msgstr ""
-
-#: templates/discover.html:36 templates/planner.html:36
-msgid "yearn for"
-msgstr ""
-
-#: templates/discover.html:37 templates/discover.html:43
-#: templates/planner.html:37 templates/planner.html:43
-msgid ""
-"our decadent blends the moment you walk inside until you finish your last"
-" sip. Join us for your daily routine, an outing with friends, or simply "
-"just to enjoy some alone time."
-msgstr ""
-
-#: templates/discover.html:42 templates/planner.html:42
-msgid "desire"
-msgstr ""
-
-#: templates/includes/en/hero.html:21 templates/includes/ko_kr/hero.html:21
-#: templates/includes/nl/hero.html:21
+#: templates/includes/en/hero.html:19 templates/includes/ko_kr/hero.html:19
+#: templates/includes/nl/hero.html:19
 msgid "The Wild Atlantic Way"
 msgstr ""
 
@@ -104,17 +46,16 @@ msgstr ""
 msgid "Discover the Wild Atlantic Way"
 msgstr ""
 
-#: templates/includes/en/main.html:73 templates/includes/ko_kr/main.html:73
-#: templates/includes/nl/main.html:73
+#: templates/includes/en/main.html:73 templates/includes/nl/main.html:73
 msgid "Enjoy the road trip of your life, and discover the Wild Atlantic Way"
 msgstr ""
 
-#: templates/includes/en/main.html:82 templates/includes/ko_kr/main.html:82
-#: templates/includes/nl/main.html:82
+#: templates/includes/en/main.html:82 templates/includes/nl/main.html:82
 msgid "Discover Today!"
 msgstr ""
 
-#: templates/includes/en/main.html:90
+#: templates/includes/en/main.html:90 templates/includes/ko_kr/main.html:135
+#: templates/includes/nl/main.html:90
 msgid ""
 "The Wild Atlantic Way route from start to finish unfolds the wonders of "
 "nature, the power of the ocean and its imprint on the west coast of "
@@ -124,7 +65,8 @@ msgid ""
 "Behind every bend on this magical coastal road a new delight awaits."
 msgstr ""
 
-#: templates/includes/en/main.html:96
+#: templates/includes/en/main.html:96 templates/includes/ko_kr/main.html:141
+#: templates/includes/nl/main.html:96
 msgid ""
 "The wild Atlantic with its unrestrained and untameable tides and storms, "
 "has continuously been moulding the west coast of Ireland. With a constant"
@@ -137,42 +79,41 @@ msgid ""
 "encounter with the past."
 msgstr ""
 
-#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:116
-#: templates/includes/nl/main.html:116
+#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:149
+#: templates/includes/nl/main.html:104
 msgid "The Wild Atlantic Way Route"
 msgstr ""
 
-#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:127
-#: templates/includes/nl/main.html:127
+#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:160
+#: templates/includes/nl/main.html:115
 msgid "Must-See Sights of the Wild Atlantic Way"
 msgstr ""
 
-#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:131
-#: templates/includes/nl/main.html:131
+#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:164
+#: templates/includes/nl/main.html:119
 msgid ""
 "Need inspiration? Explore some of the must-see highlights of the Wild "
 "Atlantic Way:"
 msgstr ""
 
-#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:164
-#: templates/includes/nl/main.html:164
+#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:197
+#: templates/includes/nl/main.html:152
 msgid "Your Wild Atlantic Way Travel Guide"
 msgstr ""
 
-#: templates/includes/en/main.html:156
+#: templates/includes/en/main.html:156 templates/includes/ko_kr/main.html:201
 msgid "Use our handy travel planner to plan your life-changing road trip!"
 msgstr ""
 
-#: templates/includes/en/main.html:164
+#: templates/includes/en/main.html:164 templates/includes/ko_kr/main.html:209
 msgid "Starting Location"
 msgstr ""
 
-#: templates/includes/en/main.html:185
+#: templates/includes/en/main.html:185 templates/includes/ko_kr/main.html:230
 msgid "Ending Location"
 msgstr ""
 
-#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:219
-#: templates/includes/nl/main.html:219
+#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:252
 msgid "Submit!"
 msgstr ""
 
@@ -202,49 +143,200 @@ msgid "Map"
 msgstr ""
 
 #: templates/includes/en/navbar.html:33 templates/includes/ko_kr/navbar.html:33
-#: templates/includes/nl/navbar.html:33
 msgid "English"
 msgstr ""
 
 #: templates/includes/en/navbar.html:34 templates/includes/ko_kr/navbar.html:34
-#: templates/includes/nl/navbar.html:34
 msgid "Korean"
 msgstr ""
 
 #: templates/includes/en/navbar.html:35 templates/includes/ko_kr/navbar.html:35
-#: templates/includes/nl/navbar.html:35
 msgid "Dutch"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:90 templates/includes/nl/main.html:90
-msgid ""
-"The Wild Atlantic Way route from start to finish unfolds the wonders of "
-"nature,\n"
-"        the power of the ocean and its imprint on the west coast of "
-"Ireland,\n"
-"        and the stunning countryside in all its diversity.\n"
-"        Enchanting villages are nestled along the coast as well as "
-"ancient monuments, \n"
-"        their origins having long sunk into the mists of oblivion dot the"
-" landscape.\n"
-"        Behind every bend on this magical coastal road a new delight "
-"awaits."
+#: templates/includes/ko_kr/main.html:73
+msgid "Build your own custom itinerary with our advanced checklist system!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:101 templates/includes/nl/main.html:101
+#: templates/includes/ko_kr/main.html:82
+msgid "Build your list!"
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:87
+msgid "Our most popular list!"
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:93
+msgid "Visit the White Cliffs of Moher!"
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:100
+msgid "Travel the Ring of Kerry!"
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:107
+msgid "See the Skelling Michael!"
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:114
+msgid "Walk through the beautiful Galway City!"
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:121
+msgid "Enjoy the beautiful Traditional Music Session!"
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:127
+msgid "Download Your List!"
+msgstr ""
+
+#: templates/includes/nl/main.html:156
 msgid ""
-"The wild Atlantic with its unrestrained and untameable tides and storms,"
-" \n"
-"        has continuously been moulding the west coast of Ireland.\n"
-"        With a constant meeting of water and land,\n"
-"        a deeply indented and wild terrain has emerged with towering "
-"cliffs,\n"
-"        spellbinding bays and beaches, mystical islands, always changing "
-"and never reaching the end.\n"
-"        In the isolation or perhaps expressed in a different way,\n"
-"        living near and with the Atlantic at your doorstep has ensured "
-"that old traditions and the Irish language have been preserved.\n"
-"        A trip along the Wild Atlantic Way is also an encounter with the "
-"past."
+"Use our handy travel planner to plan your life-changing sustainable bus "
+"tour!"
+msgstr ""
+
+#: templates/includes/nl/main.html:162
+msgid "Type of Route"
+msgstr ""
+
+#: templates/includes/nl/main.html:163
+msgid "Child (€)"
+msgstr ""
+
+#: templates/includes/nl/main.html:164
+msgid "Student (€)"
+msgstr ""
+
+#: templates/includes/nl/main.html:165
+msgid "Adult (€)"
+msgstr ""
+
+#: templates/includes/nl/main.html:166
+msgid "Family (€)"
+msgstr ""
+
+#: templates/includes/nl/main.html:167
+msgid "Elderly (€)"
+msgstr ""
+
+#: templates/includes/nl/main.html:168
+msgid "Duration (Hours)"
+msgstr ""
+
+#: templates/includes/nl/main.html:169
+msgid "Carbon Emissions (kg)"
+msgstr ""
+
+#: templates/includes/nl/main.html:174
+msgid "Cork Only"
+msgstr ""
+
+#: templates/includes/nl/main.html:175
+msgid "10"
+msgstr ""
+
+#: templates/includes/nl/main.html:176
+msgid "12"
+msgstr ""
+
+#: templates/includes/nl/main.html:177 templates/includes/nl/main.html:185
+msgid "15"
+msgstr ""
+
+#: templates/includes/nl/main.html:178 templates/includes/nl/main.html:205
+msgid "40"
+msgstr ""
+
+#: templates/includes/nl/main.html:179
+msgid "8"
+msgstr ""
+
+#: templates/includes/nl/main.html:180
+msgid "1"
+msgstr ""
+
+#: templates/includes/nl/main.html:181
+msgid "0.5"
+msgstr ""
+
+#: templates/includes/nl/main.html:184
+msgid "Cork to Galway"
+msgstr ""
+
+#: templates/includes/nl/main.html:186 templates/includes/nl/main.html:199
+msgid "18"
+msgstr ""
+
+#: templates/includes/nl/main.html:187
+msgid "22"
+msgstr ""
+
+#: templates/includes/nl/main.html:188
+msgid "60"
+msgstr ""
+
+#: templates/includes/nl/main.html:189
+msgid "14"
+msgstr ""
+
+#: templates/includes/nl/main.html:190 templates/includes/nl/main.html:211
+msgid "2.5"
+msgstr ""
+
+#: templates/includes/nl/main.html:191
+msgid "1.2"
+msgstr ""
+
+#: templates/includes/nl/main.html:194
+msgid "Galway to Derry"
+msgstr ""
+
+#: templates/includes/nl/main.html:195
+msgid "20"
+msgstr ""
+
+#: templates/includes/nl/main.html:196
+msgid "23"
+msgstr ""
+
+#: templates/includes/nl/main.html:197
+msgid "28"
+msgstr ""
+
+#: templates/includes/nl/main.html:198
+msgid "80"
+msgstr ""
+
+#: templates/includes/nl/main.html:200
+msgid "3"
+msgstr ""
+
+#: templates/includes/nl/main.html:201
+msgid "1.6"
+msgstr ""
+
+#: templates/includes/nl/main.html:204
+msgid "Entire Route"
+msgstr ""
+
+#: templates/includes/nl/main.html:206
+msgid "45"
+msgstr ""
+
+#: templates/includes/nl/main.html:207
+msgid "55"
+msgstr ""
+
+#: templates/includes/nl/main.html:208
+msgid "150"
+msgstr ""
+
+#: templates/includes/nl/main.html:209
+msgid "35"
+msgstr ""
+
+#: templates/includes/nl/main.html:210
+msgid "6"
 msgstr ""
 

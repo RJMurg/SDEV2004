@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-21 20:26+0100\n"
+"POT-Creation-Date: 2024-04-22 22:25+0100\n"
 "PO-Revision-Date: 2024-04-21 19:58+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko_KR\n"
@@ -18,76 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/base.html:33
+#: templates/base.html:32
 msgid "Made with ❤️ (and Flask) by Ruán Murgatroyd"
 msgstr "루안 머가트로이드가 ❤️(그리고 플라스크)로 만들었습니다."
 
-#: templates/discover.html:16 templates/planner.html:16
-msgid "Strong Coffee, Strong Roots"
-msgstr "강한 커피, 깊은 뿌리"
-
-#: templates/discover.html:17 templates/planner.html:17
-msgid "About Our Cafe"
-msgstr "우리 카페 소개"
-
-#: templates/discover.html:19 templates/planner.html:19
-msgid ""
-"Founded in 1987 by the Hernandez brothers, our establishment has been "
-"serving up rich coffee sourced from artisan farmers in various regions of"
-" South and Central America. We are dedicated to travelling the world, "
-"finding the best coffee, and bringing back to you here in our cafe."
-msgstr ""
-"1987년 에르난데스 형제에 의해 설립된 우리 카페는 남미와 중미 여러 지역의 장인 농민들로부터 공급받은 풍부한 커피를 제공해 "
-"왔습니다. 우리는 세계를 여행하며 최고의 커피를 찾고, 그것을 여러분의 카페로 가져오는 데 전념하고 있습니다."
-
-#: templates/discover.html:23 templates/discover.html:29
-#: templates/planner.html:23 templates/planner.html:29
-msgid "We guarantee that you will fall in "
-msgstr "우리는 당신이 반할 것이라고 보장합니다."
-
-#: templates/discover.html:24 templates/planner.html:24
-msgid "love"
-msgstr "사랑에"
-
-#: templates/discover.html:25 templates/discover.html:31
-#: templates/planner.html:25 templates/planner.html:31
-msgid ""
-"with our decadent blends the moment you walk inside until you finish your"
-" last sip. Join us for your daily routine, an outing with friends, or "
-"simply just to enjoy some alone time."
-msgstr ""
-"당신이 우리의 황홀한 블렌드를 한 모금 마실 때까지, 문을 열고 들어선 순간부터 사랑에 빠질 것입니다. 일상의 일부로, 친구들과의 "
-"외출로, 혹은 그저 혼자만의 시간을 즐기기 위해 우리와 함께하세요."
-
-#: templates/discover.html:30 templates/planner.html:30
-msgid "lust"
-msgstr "열정에"
-
-#: templates/discover.html:35 templates/discover.html:41
-#: templates/planner.html:35 templates/planner.html:41
-msgid "We guarantee that you will "
-msgstr "우리는 당신이 다음을 갈망할 것이라고 보장합니다."
-
-#: templates/discover.html:36 templates/planner.html:36
-msgid "yearn for"
-msgstr "갈망할"
-
-#: templates/discover.html:37 templates/discover.html:43
-#: templates/planner.html:37 templates/planner.html:43
-msgid ""
-"our decadent blends the moment you walk inside until you finish your last"
-" sip. Join us for your daily routine, an outing with friends, or simply "
-"just to enjoy some alone time."
-msgstr ""
-"당신이 문을 열고 들어선 순간부터 마지막 한 모금을 마실 때까지, 우리의 황홀한 블렌드를 갈망할 것입니다. 일상의 일부로, "
-"친구들과의 외출로, 혹은 그저 혼자만의 시간을 즐기기 위해 우리와 함께하세요."
-
-#: templates/discover.html:42 templates/planner.html:42
-msgid "desire"
-msgstr "열망"
-
-#: templates/includes/en/hero.html:21 templates/includes/ko_kr/hero.html:21
-#: templates/includes/nl/hero.html:21
+#: templates/includes/en/hero.html:19 templates/includes/ko_kr/hero.html:19
+#: templates/includes/nl/hero.html:19
 msgid "The Wild Atlantic Way"
 msgstr "와일드 애틀랜틱 웨이"
 
@@ -113,17 +49,16 @@ msgstr ""
 msgid "Discover the Wild Atlantic Way"
 msgstr "와일드 애틀랜틱 웨이를 발견하세요"
 
-#: templates/includes/en/main.html:73 templates/includes/ko_kr/main.html:73
-#: templates/includes/nl/main.html:73
+#: templates/includes/en/main.html:73 templates/includes/nl/main.html:73
 msgid "Enjoy the road trip of your life, and discover the Wild Atlantic Way"
 msgstr "인생 최고의 로드 트립을 즐기며 와일드 애틀랜틱 웨이를 탐험하세요"
 
-#: templates/includes/en/main.html:82 templates/includes/ko_kr/main.html:82
-#: templates/includes/nl/main.html:82
+#: templates/includes/en/main.html:82 templates/includes/nl/main.html:82
 msgid "Discover Today!"
 msgstr "오늘 바로 탐험하세요!"
 
-#: templates/includes/en/main.html:90
+#: templates/includes/en/main.html:90 templates/includes/ko_kr/main.html:135
+#: templates/includes/nl/main.html:90
 #, fuzzy
 msgid ""
 "The Wild Atlantic Way route from start to finish unfolds the wonders of "
@@ -137,7 +72,8 @@ msgstr ""
 "보입니다. 또한 다양한 시골 풍경과 마법 같은 해안 도로를 따라 자리 잡은 매혹적인 마을들과 오랜 세월 동안 잊혀져 가는 안개 속에"
 " 묻혀있던 고대 기념물들이 풍경을 점점이 이룹니다. 이 신비로운 해안 도로의 모든 굽이마다 새로운 즐거움이 기다리고 있습니다."
 
-#: templates/includes/en/main.html:96
+#: templates/includes/en/main.html:96 templates/includes/ko_kr/main.html:141
+#: templates/includes/nl/main.html:96
 #, fuzzy
 msgid ""
 "The wild Atlantic with its unrestrained and untameable tides and storms, "
@@ -155,42 +91,41 @@ msgstr ""
 "고립되었거나 다르게 표현되었을 수 있는 이 지역에서 대서양과 가까이 살아가는 것은 오래된 전통과 아일랜드어가 보존될 수 있게 "
 "해주었습니다. 와일드 애틀랜틱 웨이를 따라가는 여행은 과거와의 만남이기도 합니다."
 
-#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:116
-#: templates/includes/nl/main.html:116
+#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:149
+#: templates/includes/nl/main.html:104
 msgid "The Wild Atlantic Way Route"
 msgstr "와일드 애틀랜틱 웨이 루트"
 
-#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:127
-#: templates/includes/nl/main.html:127
+#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:160
+#: templates/includes/nl/main.html:115
 msgid "Must-See Sights of the Wild Atlantic Way"
 msgstr "와일드 애틀랜틱 웨이의 필수 관광지"
 
-#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:131
-#: templates/includes/nl/main.html:131
+#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:164
+#: templates/includes/nl/main.html:119
 msgid ""
 "Need inspiration? Explore some of the must-see highlights of the Wild "
 "Atlantic Way:"
 msgstr "영감이 필요하신가요? 와일드 애틀랜틱 웨이의 주요 관광지를 탐험해 보세요:"
 
-#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:164
-#: templates/includes/nl/main.html:164
+#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:197
+#: templates/includes/nl/main.html:152
 msgid "Your Wild Atlantic Way Travel Guide"
 msgstr "당신의 와일드 애틀랜틱 웨이 여행 가이드"
 
-#: templates/includes/en/main.html:156
+#: templates/includes/en/main.html:156 templates/includes/ko_kr/main.html:201
 msgid "Use our handy travel planner to plan your life-changing road trip!"
 msgstr "당신의 인생을 바꿀 로드 트립을 계획하기 위해 우리의 편리한 여행 플래너를 사용하세요!"
 
-#: templates/includes/en/main.html:164
+#: templates/includes/en/main.html:164 templates/includes/ko_kr/main.html:209
 msgid "Starting Location"
 msgstr "시작 위치"
 
-#: templates/includes/en/main.html:185
+#: templates/includes/en/main.html:185 templates/includes/ko_kr/main.html:230
 msgid "Ending Location"
 msgstr "종료 위치"
 
-#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:219
-#: templates/includes/nl/main.html:219
+#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:252
 msgid "Submit!"
 msgstr "제출하기!"
 
@@ -220,63 +155,321 @@ msgid "Map"
 msgstr "지도"
 
 #: templates/includes/en/navbar.html:33 templates/includes/ko_kr/navbar.html:33
-#: templates/includes/nl/navbar.html:33
 msgid "English"
 msgstr "영어"
 
 #: templates/includes/en/navbar.html:34 templates/includes/ko_kr/navbar.html:34
-#: templates/includes/nl/navbar.html:34
 msgid "Korean"
 msgstr "한국어"
 
 #: templates/includes/en/navbar.html:35 templates/includes/ko_kr/navbar.html:35
-#: templates/includes/nl/navbar.html:35
 msgid "Dutch"
 msgstr "네덜란드어"
 
-#: templates/includes/ko_kr/main.html:90 templates/includes/nl/main.html:90
-msgid ""
-"The Wild Atlantic Way route from start to finish unfolds the wonders of "
-"nature,\n"
-"        the power of the ocean and its imprint on the west coast of "
-"Ireland,\n"
-"        and the stunning countryside in all its diversity.\n"
-"        Enchanting villages are nestled along the coast as well as "
-"ancient monuments, \n"
-"        their origins having long sunk into the mists of oblivion dot the"
-" landscape.\n"
-"        Behind every bend on this magical coastal road a new delight "
-"awaits."
-msgstr ""
-"와일드 애틀랜틱 웨이는 시작부터 끝까지 자연의 경이로움,\n"
-"        바다의 힘과 아일랜드 서해안에 남긴 흔적,\n"
-"        그리고 다양한 시골 풍경을 펼쳐 보입니다.\n"
-"        매혹적인 마을들과 고대 유적들이 해안을 따라 자리잡고 있으며,\n"
-"        오랜 시간 동안 잊혀진 미지의 땅에 점처럼 흩어져 있습니다.\n"
-"        이 마법 같은 해안 도로의 모든 구부러진 곳에서 새로운 즐거움이 기다리고 있습니다."
+#: templates/includes/ko_kr/main.html:73
+msgid "Build your own custom itinerary with our advanced checklist system!"
+msgstr "고급 체크리스트 시스템으로 나만의 맞춤 여행 일정을 짜보세요!"
 
-#: templates/includes/ko_kr/main.html:101 templates/includes/nl/main.html:101
+#: templates/includes/ko_kr/main.html:82
+msgid "Build your list!"
+msgstr "리스트를 만드세요!"
+
+#: templates/includes/ko_kr/main.html:87
+msgid "Our most popular list!"
+msgstr "가장 인기 있는 리스트입니다!"
+
+#: templates/includes/ko_kr/main.html:93
+msgid "Visit the White Cliffs of Moher!"
+msgstr "모허의 흰 절벽을 방문하세요!"
+
+#: templates/includes/ko_kr/main.html:100
+msgid "Travel the Ring of Kerry!"
+msgstr "케리 반도를 여행하세요!"
+
+#: templates/includes/ko_kr/main.html:107
+msgid "See the Skelling Michael!"
+msgstr "스켈리그 마이클을 구경하세요!"
+
+#: templates/includes/ko_kr/main.html:114
+msgid "Walk through the beautiful Galway City!"
+msgstr "아름다운 갤웨이 시를 거닐어 보세요!"
+
+#: templates/includes/ko_kr/main.html:121
+msgid "Enjoy the beautiful Traditional Music Session!"
+msgstr "아름다운 전통 음악 세션을 즐기세요!"
+
+#: templates/includes/ko_kr/main.html:127
+msgid "Download Your List!"
+msgstr "리스트를 다운로드하세요!"
+
+#: templates/includes/nl/main.html:156
 #, fuzzy
 msgid ""
-"The wild Atlantic with its unrestrained and untameable tides and storms,"
-" \n"
-"        has continuously been moulding the west coast of Ireland.\n"
-"        With a constant meeting of water and land,\n"
-"        a deeply indented and wild terrain has emerged with towering "
-"cliffs,\n"
-"        spellbinding bays and beaches, mystical islands, always changing "
-"and never reaching the end.\n"
-"        In the isolation or perhaps expressed in a different way,\n"
-"        living near and with the Atlantic at your doorstep has ensured "
-"that old traditions and the Irish language have been preserved.\n"
-"        A trip along the Wild Atlantic Way is also an encounter with the "
-"past."
-msgstr ""
-"제어할 수 없고 길들일 수 없는 파도와 폭풍을 가진 와일드 애틀랜틱은 계속해서 아일랜드 서해안을 형성해 왔습니다. \n"
-"        물과 땅의 지속적인 만남으로,\n"
-"        높은 절벽, 매혹적인 만과 해변, 신비로운 섬들이 있는 깊게 패인 야생의 지형이 생겨났습니다. 항상 변화하며 끝이 "
-"없습니다.\n"
-"        고립되어 있거나 다르게 표현된다면,\n"
-"        대서양과 함께 살면서 오래된 전통과 아일랜드어가 보존되었습니다.\n"
-"        와일드 애틀랜틱 웨이를 여행하는 것은 과거와의 만남이기도 합니다."
+"Use our handy travel planner to plan your life-changing sustainable bus "
+"tour!"
+msgstr "당신의 인생을 바꿀 로드 트립을 계획하기 위해 우리의 편리한 여행 플래너를 사용하세요!"
+
+#: templates/includes/nl/main.html:162
+msgid "Type of Route"
+msgstr "노선 유형"
+
+#: templates/includes/nl/main.html:163
+msgid "Child (€)"
+msgstr "어린이 (€)"
+
+#: templates/includes/nl/main.html:164
+msgid "Student (€)"
+msgstr "학생 (€)"
+
+#: templates/includes/nl/main.html:165
+msgid "Adult (€)"
+msgstr "성인 (€)"
+
+#: templates/includes/nl/main.html:166
+msgid "Family (€)"
+msgstr "가족 (€)"
+
+#: templates/includes/nl/main.html:167
+msgid "Elderly (€)"
+msgstr "노인 (€)"
+
+#: templates/includes/nl/main.html:168
+msgid "Duration (Hours)"
+msgstr "소요 시간 (시간)"
+
+#: templates/includes/nl/main.html:169
+msgid "Carbon Emissions (kg)"
+msgstr "탄소 배출량 (kg)"
+
+#: templates/includes/nl/main.html:174
+msgid "Cork Only"
+msgstr "코크 전용"
+
+#: templates/includes/nl/main.html:175
+msgid "10"
+msgstr "10"
+
+#: templates/includes/nl/main.html:176
+msgid "12"
+msgstr "12"
+
+#: templates/includes/nl/main.html:177 templates/includes/nl/main.html:185
+msgid "15"
+msgstr "15"
+
+#: templates/includes/nl/main.html:178 templates/includes/nl/main.html:205
+msgid "40"
+msgstr "40"
+
+#: templates/includes/nl/main.html:179
+msgid "8"
+msgstr "8"
+
+#: templates/includes/nl/main.html:180
+msgid "1"
+msgstr "1"
+
+#: templates/includes/nl/main.html:181
+msgid "0.5"
+msgstr "0.5"
+
+#: templates/includes/nl/main.html:184
+msgid "Cork to Galway"
+msgstr "코크에서 갤웨이까지"
+
+#: templates/includes/nl/main.html:186 templates/includes/nl/main.html:199
+msgid "18"
+msgstr "18"
+
+#: templates/includes/nl/main.html:187
+msgid "22"
+msgstr "22"
+
+#: templates/includes/nl/main.html:188
+msgid "60"
+msgstr "60"
+
+#: templates/includes/nl/main.html:189
+msgid "14"
+msgstr "14"
+
+#: templates/includes/nl/main.html:190 templates/includes/nl/main.html:211
+msgid "2.5"
+msgstr "2.5"
+
+#: templates/includes/nl/main.html:191
+msgid "1.2"
+msgstr "1.2"
+
+#: templates/includes/nl/main.html:194
+msgid "Galway to Derry"
+msgstr "갤웨이에서 데리까지"
+
+#: templates/includes/nl/main.html:195
+msgid "20"
+msgstr "20"
+
+#: templates/includes/nl/main.html:196
+msgid "23"
+msgstr "23"
+
+#: templates/includes/nl/main.html:197
+msgid "28"
+msgstr "28"
+
+#: templates/includes/nl/main.html:198
+msgid "80"
+msgstr "80"
+
+#: templates/includes/nl/main.html:200
+msgid "3"
+msgstr "3"
+
+#: templates/includes/nl/main.html:201
+msgid "1.6"
+msgstr "1.6"
+
+#: templates/includes/nl/main.html:204
+msgid "Entire Route"
+msgstr "전체 노선"
+
+#: templates/includes/nl/main.html:206
+msgid "45"
+msgstr "45"
+
+#: templates/includes/nl/main.html:207
+msgid "55"
+msgstr "55"
+
+#: templates/includes/nl/main.html:208
+msgid "150"
+msgstr "150"
+
+#: templates/includes/nl/main.html:209
+msgid "35"
+msgstr "35"
+
+#: templates/includes/nl/main.html:210
+msgid "6"
+msgstr "6"
+
+#~ msgid "Strong Coffee, Strong Roots"
+#~ msgstr "강한 커피, 깊은 뿌리"
+
+#~ msgid "About Our Cafe"
+#~ msgstr "우리 카페 소개"
+
+#~ msgid ""
+#~ "Founded in 1987 by the Hernandez "
+#~ "brothers, our establishment has been "
+#~ "serving up rich coffee sourced from "
+#~ "artisan farmers in various regions of"
+#~ " South and Central America. We are"
+#~ " dedicated to travelling the world, "
+#~ "finding the best coffee, and bringing"
+#~ " back to you here in our cafe."
+#~ msgstr ""
+#~ "1987년 에르난데스 형제에 의해 설립된 우리 카페는 "
+#~ "남미와 중미 여러 지역의 장인 농민들로부터 공급받은 "
+#~ "풍부한 커피를 제공해 왔습니다. 우리는 세계를 여행하며 "
+#~ "최고의 커피를 찾고, 그것을 여러분의 카페로 가져오는 "
+#~ "데 전념하고 있습니다."
+
+#~ msgid "We guarantee that you will fall in "
+#~ msgstr "우리는 당신이 반할 것이라고 보장합니다."
+
+#~ msgid "love"
+#~ msgstr "사랑에"
+
+#~ msgid ""
+#~ "with our decadent blends the moment "
+#~ "you walk inside until you finish "
+#~ "your last sip. Join us for your"
+#~ " daily routine, an outing with "
+#~ "friends, or simply just to enjoy "
+#~ "some alone time."
+#~ msgstr ""
+#~ "당신이 우리의 황홀한 블렌드를 한 모금 마실 "
+#~ "때까지, 문을 열고 들어선 순간부터 사랑에 빠질 "
+#~ "것입니다. 일상의 일부로, 친구들과의 외출로, 혹은 그저"
+#~ " 혼자만의 시간을 즐기기 위해 우리와 함께하세요."
+
+#~ msgid "lust"
+#~ msgstr "열정에"
+
+#~ msgid "We guarantee that you will "
+#~ msgstr "우리는 당신이 다음을 갈망할 것이라고 보장합니다."
+
+#~ msgid "yearn for"
+#~ msgstr "갈망할"
+
+#~ msgid ""
+#~ "our decadent blends the moment you "
+#~ "walk inside until you finish your "
+#~ "last sip. Join us for your daily"
+#~ " routine, an outing with friends, or"
+#~ " simply just to enjoy some alone "
+#~ "time."
+#~ msgstr ""
+#~ "당신이 문을 열고 들어선 순간부터 마지막 한 모금을"
+#~ " 마실 때까지, 우리의 황홀한 블렌드를 갈망할 것입니다."
+#~ " 일상의 일부로, 친구들과의 외출로, 혹은 그저 혼자만의"
+#~ " 시간을 즐기기 위해 우리와 함께하세요."
+
+#~ msgid "desire"
+#~ msgstr "열망"
+
+#~ msgid ""
+#~ "The Wild Atlantic Way route from "
+#~ "start to finish unfolds the wonders "
+#~ "of nature,\n"
+#~ "        the power of the ocean and"
+#~ " its imprint on the west coast "
+#~ "of Ireland,\n"
+#~ "        and the stunning countryside in all its diversity.\n"
+#~ "        Enchanting villages are nestled "
+#~ "along the coast as well as ancient"
+#~ " monuments, \n"
+#~ "        their origins having long sunk"
+#~ " into the mists of oblivion dot "
+#~ "the landscape.\n"
+#~ "        Behind every bend on this "
+#~ "magical coastal road a new delight "
+#~ "awaits."
+#~ msgstr ""
+#~ "와일드 애틀랜틱 웨이는 시작부터 끝까지 자연의 경이로움,\n"
+#~ "        바다의 힘과 아일랜드 서해안에 남긴 흔적,\n"
+#~ "        그리고 다양한 시골 풍경을 펼쳐 보입니다.\n"
+#~ "        매혹적인 마을들과 고대 유적들이 해안을 따라 자리잡고 있으며,\n"
+#~ "        오랜 시간 동안 잊혀진 미지의 땅에 점처럼 흩어져 있습니다.\n"
+#~ "        이 마법 같은 해안 도로의 모든 구부러진 곳에서 새로운 즐거움이 기다리고 있습니다."
+
+#~ msgid ""
+#~ "The wild Atlantic with its unrestrained"
+#~ " and untameable tides and storms, \n"
+#~ "        has continuously been moulding the west coast of Ireland.\n"
+#~ "        With a constant meeting of water and land,\n"
+#~ "        a deeply indented and wild "
+#~ "terrain has emerged with towering "
+#~ "cliffs,\n"
+#~ "        spellbinding bays and beaches, "
+#~ "mystical islands, always changing and "
+#~ "never reaching the end.\n"
+#~ "        In the isolation or perhaps expressed in a different way,\n"
+#~ "        living near and with the "
+#~ "Atlantic at your doorstep has ensured"
+#~ " that old traditions and the Irish"
+#~ " language have been preserved.\n"
+#~ "        A trip along the Wild "
+#~ "Atlantic Way is also an encounter "
+#~ "with the past."
+#~ msgstr ""
+#~ "제어할 수 없고 길들일 수 없는 파도와 폭풍을 가진 와일드 애틀랜틱은 계속해서 아일랜드 서해안을 형성해 왔습니다. \n"
+#~ "        물과 땅의 지속적인 만남으로,\n"
+#~ "        높은 절벽, 매혹적인 만과 해변, 신비로운"
+#~ " 섬들이 있는 깊게 패인 야생의 지형이 생겨났습니다."
+#~ " 항상 변화하며 끝이 없습니다.\n"
+#~ "        고립되어 있거나 다르게 표현된다면,\n"
+#~ "        대서양과 함께 살면서 오래된 전통과 아일랜드어가 보존되었습니다.\n"
+#~ "        와일드 애틀랜틱 웨이를 여행하는 것은 과거와의 만남이기도 합니다."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-21 20:26+0100\n"
+"POT-Creation-Date: 2024-04-22 22:25+0100\n"
 "PO-Revision-Date: 2024-04-21 19:58+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: nl\n"
@@ -18,81 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/base.html:33
+#: templates/base.html:32
 msgid "Made with ❤️ (and Flask) by Ruán Murgatroyd"
 msgstr "Gemaakt met ❤️ (en Flask) door Ruán Murgatroyd"
 
-#: templates/discover.html:16 templates/planner.html:16
-msgid "Strong Coffee, Strong Roots"
-msgstr "Sterke Koffie, Diepe Wortels"
-
-#: templates/discover.html:17 templates/planner.html:17
-msgid "About Our Cafe"
-msgstr "Over Ons Café"
-
-#: templates/discover.html:19 templates/planner.html:19
-msgid ""
-"Founded in 1987 by the Hernandez brothers, our establishment has been "
-"serving up rich coffee sourced from artisan farmers in various regions of"
-" South and Central America. We are dedicated to travelling the world, "
-"finding the best coffee, and bringing back to you here in our cafe."
-msgstr ""
-"Opgericht in 1987 door de gebroeders Hernandez, ons etablissement heeft "
-"al die tijd rijke koffie aangeboden die afkomstig is van ambachtelijke "
-"boeren uit verschillende regio's van Zuid- en Centraal-Amerika. Wij zijn "
-"toegewijd aan het reizen over de wereld, het vinden van de beste koffie, "
-"en deze terug te brengen naar u hier in ons café."
-
-#: templates/discover.html:23 templates/discover.html:29
-#: templates/planner.html:23 templates/planner.html:29
-msgid "We guarantee that you will fall in "
-msgstr "Wij garanderen dat u zult vallen in "
-
-#: templates/discover.html:24 templates/planner.html:24
-msgid "love"
-msgstr "liefde"
-
-#: templates/discover.html:25 templates/discover.html:31
-#: templates/planner.html:25 templates/planner.html:31
-msgid ""
-"with our decadent blends the moment you walk inside until you finish your"
-" last sip. Join us for your daily routine, an outing with friends, or "
-"simply just to enjoy some alone time."
-msgstr ""
-"voor onze decadente melanges vanaf het moment dat u binnenloopt totdat u "
-"uw laatste slok op heeft. Sluit u bij ons aan voor uw dagelijkse routine,"
-" een uitje met vrienden, of gewoon om wat alleen tijd te genieten."
-
-#: templates/discover.html:30 templates/planner.html:30
-msgid "lust"
-msgstr "verlangen"
-
-#: templates/discover.html:35 templates/discover.html:41
-#: templates/planner.html:35 templates/planner.html:41
-msgid "We guarantee that you will "
-msgstr "Wij garanderen dat u zult "
-
-#: templates/discover.html:36 templates/planner.html:36
-msgid "yearn for"
-msgstr "verlangen naar"
-
-#: templates/discover.html:37 templates/discover.html:43
-#: templates/planner.html:37 templates/planner.html:43
-msgid ""
-"our decadent blends the moment you walk inside until you finish your last"
-" sip. Join us for your daily routine, an outing with friends, or simply "
-"just to enjoy some alone time."
-msgstr ""
-"naar onze decadente melanges vanaf het moment dat u binnenloopt totdat u "
-"uw laatste slok op heeft. Sluit u bij ons aan voor uw dagelijkse routine,"
-" een uitje met vrienden, of gewoon om wat alleen tijd te genieten."
-
-#: templates/discover.html:42 templates/planner.html:42
-msgid "desire"
-msgstr "begeerte"
-
-#: templates/includes/en/hero.html:21 templates/includes/ko_kr/hero.html:21
-#: templates/includes/nl/hero.html:21
+#: templates/includes/en/hero.html:19 templates/includes/ko_kr/hero.html:19
+#: templates/includes/nl/hero.html:19
 msgid "The Wild Atlantic Way"
 msgstr "De Wild Atlantic Way"
 
@@ -121,17 +52,16 @@ msgstr ""
 msgid "Discover the Wild Atlantic Way"
 msgstr "Ontdek de Wild Atlantic Way"
 
-#: templates/includes/en/main.html:73 templates/includes/ko_kr/main.html:73
-#: templates/includes/nl/main.html:73
+#: templates/includes/en/main.html:73 templates/includes/nl/main.html:73
 msgid "Enjoy the road trip of your life, and discover the Wild Atlantic Way"
 msgstr "Geniet van de roadtrip van je leven en ontdek de Wild Atlantic Way"
 
-#: templates/includes/en/main.html:82 templates/includes/ko_kr/main.html:82
-#: templates/includes/nl/main.html:82
+#: templates/includes/en/main.html:82 templates/includes/nl/main.html:82
 msgid "Discover Today!"
 msgstr "Ontdek het vandaag!"
 
-#: templates/includes/en/main.html:90
+#: templates/includes/en/main.html:90 templates/includes/ko_kr/main.html:135
+#: templates/includes/nl/main.html:90
 #, fuzzy
 msgid ""
 "The Wild Atlantic Way route from start to finish unfolds the wonders of "
@@ -149,7 +79,8 @@ msgstr ""
 "van de vergetelheid, die het landschap stippen. Achter elke bocht van "
 "deze magische kustweg wacht een nieuw genoegen."
 
-#: templates/includes/en/main.html:96
+#: templates/includes/en/main.html:96 templates/includes/ko_kr/main.html:141
+#: templates/includes/nl/main.html:96
 #, fuzzy
 msgid ""
 "The wild Atlantic with its unrestrained and untameable tides and storms, "
@@ -172,18 +103,18 @@ msgstr ""
 "de Ierse taal bewaard zijn gebleven. Een reis langs de Wild Atlantic Way "
 "is ook een ontmoeting met het verleden."
 
-#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:116
-#: templates/includes/nl/main.html:116
+#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:149
+#: templates/includes/nl/main.html:104
 msgid "The Wild Atlantic Way Route"
 msgstr "De Route van de Wild Atlantic Way"
 
-#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:127
-#: templates/includes/nl/main.html:127
+#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:160
+#: templates/includes/nl/main.html:115
 msgid "Must-See Sights of the Wild Atlantic Way"
 msgstr "Bezienswaardigheden die je moet zien van de Wild Atlantic Way"
 
-#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:131
-#: templates/includes/nl/main.html:131
+#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:164
+#: templates/includes/nl/main.html:119
 msgid ""
 "Need inspiration? Explore some of the must-see highlights of the Wild "
 "Atlantic Way:"
@@ -191,25 +122,26 @@ msgstr ""
 "Behoefte aan inspiratie? Ontdek enkele van de hoogtepunten die je moet "
 "zien van de Wild Atlantic Way:"
 
-#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:164
-#: templates/includes/nl/main.html:164
+#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:197
+#: templates/includes/nl/main.html:152
 msgid "Your Wild Atlantic Way Travel Guide"
 msgstr "Je Reisgids voor de Wild Atlantic Way"
 
-#: templates/includes/en/main.html:156
+#: templates/includes/en/main.html:156 templates/includes/ko_kr/main.html:201
 msgid "Use our handy travel planner to plan your life-changing road trip!"
-msgstr "Gebruik onze handige reisplanner om je levensveranderende roadtrip te plannen!"
+msgstr ""
+"Gebruik onze handige reisplanner om je levensveranderende roadtrip te "
+"plannen!"
 
-#: templates/includes/en/main.html:164
+#: templates/includes/en/main.html:164 templates/includes/ko_kr/main.html:209
 msgid "Starting Location"
 msgstr "Beginlocatie"
 
-#: templates/includes/en/main.html:185
+#: templates/includes/en/main.html:185 templates/includes/ko_kr/main.html:230
 msgid "Ending Location"
 msgstr "Eindlocatie"
 
-#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:219
-#: templates/includes/nl/main.html:219
+#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:252
 msgid "Submit!"
 msgstr "Versturen!"
 
@@ -239,73 +171,355 @@ msgid "Map"
 msgstr "Kaart"
 
 #: templates/includes/en/navbar.html:33 templates/includes/ko_kr/navbar.html:33
-#: templates/includes/nl/navbar.html:33
 msgid "English"
 msgstr "Engels"
 
 #: templates/includes/en/navbar.html:34 templates/includes/ko_kr/navbar.html:34
-#: templates/includes/nl/navbar.html:34
 msgid "Korean"
 msgstr "Koreaans"
 
 #: templates/includes/en/navbar.html:35 templates/includes/ko_kr/navbar.html:35
-#: templates/includes/nl/navbar.html:35
 msgid "Dutch"
 msgstr "Nederlands"
 
-#: templates/includes/ko_kr/main.html:90 templates/includes/nl/main.html:90
-msgid ""
-"The Wild Atlantic Way route from start to finish unfolds the wonders of "
-"nature,\n"
-"        the power of the ocean and its imprint on the west coast of "
-"Ireland,\n"
-"        and the stunning countryside in all its diversity.\n"
-"        Enchanting villages are nestled along the coast as well as "
-"ancient monuments, \n"
-"        their origins having long sunk into the mists of oblivion dot the"
-" landscape.\n"
-"        Behind every bend on this magical coastal road a new delight "
-"awaits."
-msgstr ""
-"De route van de Wild Atlantic Way onthult van begin tot eind de wonderen "
-"van de natuur,\n"
-"        de kracht van de oceaan en haar invloed op de westkust van "
-"Ierland,\n"
-"        en het verbluffende platteland in al zijn diversiteit.\n"
-"        Betoverende dorpjes liggen genesteld langs de kust, evenals oude "
-"monumenten, \n"
-"        waarvan de oorsprong lang verloren is gegaan in de nevelen van de"
-" vergetelheid, die het landschap stippen.\n"
-"        Achter elke bocht op deze magische kustweg wacht een nieuwe "
-"verrassing."
+#: templates/includes/ko_kr/main.html:73
+msgid "Build your own custom itinerary with our advanced checklist system!"
+msgstr "Stel uw eigen aangepaste reisroute samen met ons geavanceerde checklist-systeem!"
 
-#: templates/includes/ko_kr/main.html:101 templates/includes/nl/main.html:101
+#: templates/includes/ko_kr/main.html:82
+msgid "Build your list!"
+msgstr "Stel uw lijst samen!"
+
+#: templates/includes/ko_kr/main.html:87
+msgid "Our most popular list!"
+msgstr "Onze populairste lijst!"
+
+#: templates/includes/ko_kr/main.html:93
+msgid "Visit the White Cliffs of Moher!"
+msgstr "Bezoek de Witte Kliffen van Moher!"
+
+#: templates/includes/ko_kr/main.html:100
+msgid "Travel the Ring of Kerry!"
+msgstr "Reis door de Ring van Kerry!"
+
+#: templates/includes/ko_kr/main.html:107
+msgid "See the Skelling Michael!"
+msgstr "Bekijk de Skellig Michael!"
+
+#: templates/includes/ko_kr/main.html:114
+msgid "Walk through the beautiful Galway City!"
+msgstr "Wandel door de prachtige stad Galway!"
+
+#: templates/includes/ko_kr/main.html:121
+msgid "Enjoy the beautiful Traditional Music Session!"
+msgstr "Geniet van de prachtige traditionele muzieksessie!"
+
+#: templates/includes/ko_kr/main.html:127
+msgid "Download Your List!"
+msgstr "Download uw lijst!"
+
+#: templates/includes/nl/main.html:156
+#, fuzzy
 msgid ""
-"The wild Atlantic with its unrestrained and untameable tides and storms,"
-" \n"
-"        has continuously been moulding the west coast of Ireland.\n"
-"        With a constant meeting of water and land,\n"
-"        a deeply indented and wild terrain has emerged with towering "
-"cliffs,\n"
-"        spellbinding bays and beaches, mystical islands, always changing "
-"and never reaching the end.\n"
-"        In the isolation or perhaps expressed in a different way,\n"
-"        living near and with the Atlantic at your doorstep has ensured "
-"that old traditions and the Irish language have been preserved.\n"
-"        A trip along the Wild Atlantic Way is also an encounter with the "
-"past."
+"Use our handy travel planner to plan your life-changing sustainable bus "
+"tour!"
 msgstr ""
-"De wilde Atlantische Oceaan met zijn ongetemde getijden en stormen,\n"
-"        heeft continu de westkust van Ierland gevormd.\n"
-"        Met een constante ontmoeting van water en land,\n"
-"        is een diep ingesneden en wild terrein ontstaan met torenhoge "
-"kliffen,\n"
-"        betoverende baaien en stranden, mystieke eilanden, altijd "
-"veranderend en nooit een einde bereikend.\n"
-"        In de isolatie, of misschien anders uitgedrukt,\n"
-"        leven dichtbij en met de Atlantische Oceaan op je drempel heeft "
-"ervoor gezorgd dat oude tradities en de Ierse taal bewaard zijn gebleven."
-"\n"
-"        Een reis langs de Wild Atlantic Way is ook een ontmoeting met het"
-" verleden."
+"Gebruik onze handige reisplanner om je levensveranderende roadtrip te "
+"plannen!"
+
+#: templates/includes/nl/main.html:162
+msgid "Type of Route"
+msgstr "Type Route"
+
+#: templates/includes/nl/main.html:163
+msgid "Child (€)"
+msgstr "Kind (€)"
+
+#: templates/includes/nl/main.html:164
+msgid "Student (€)"
+msgstr "Student (€)"
+
+#: templates/includes/nl/main.html:165
+msgid "Adult (€)"
+msgstr "Volwassene (€)"
+
+#: templates/includes/nl/main.html:166
+msgid "Family (€)"
+msgstr "Familie (€)"
+
+#: templates/includes/nl/main.html:167
+msgid "Elderly (€)"
+msgstr "Ouderen (€)"
+
+#: templates/includes/nl/main.html:168
+msgid "Duration (Hours)"
+msgstr "Duur (Uren)"
+
+#: templates/includes/nl/main.html:169
+msgid "Carbon Emissions (kg)"
+msgstr "Koolstofuitstoot (kg)"
+
+#: templates/includes/nl/main.html:174
+msgid "Cork Only"
+msgstr "Alleen Cork"
+
+#: templates/includes/nl/main.html:175
+msgid "10"
+msgstr "10"
+
+#: templates/includes/nl/main.html:176
+msgid "12"
+msgstr "12"
+
+#: templates/includes/nl/main.html:177 templates/includes/nl/main.html:185
+msgid "15"
+msgstr "15"
+
+#: templates/includes/nl/main.html:178 templates/includes/nl/main.html:205
+msgid "40"
+msgstr "40"
+
+#: templates/includes/nl/main.html:179
+msgid "8"
+msgstr "8"
+
+#: templates/includes/nl/main.html:180
+msgid "1"
+msgstr "1"
+
+#: templates/includes/nl/main.html:181
+msgid "0.5"
+msgstr "0,5"
+
+#: templates/includes/nl/main.html:184
+msgid "Cork to Galway"
+msgstr "Cork naar Galway"
+
+#: templates/includes/nl/main.html:186 templates/includes/nl/main.html:199
+msgid "18"
+msgstr "18"
+
+#: templates/includes/nl/main.html:187
+msgid "22"
+msgstr "22"
+
+#: templates/includes/nl/main.html:188
+msgid "60"
+msgstr "60"
+
+#: templates/includes/nl/main.html:189
+msgid "14"
+msgstr "14"
+
+#: templates/includes/nl/main.html:190 templates/includes/nl/main.html:211
+msgid "2.5"
+msgstr "2,5"
+
+#: templates/includes/nl/main.html:191
+msgid "1.2"
+msgstr "1,2"
+
+#: templates/includes/nl/main.html:194
+msgid "Galway to Derry"
+msgstr "Galway naar Derry"
+
+#: templates/includes/nl/main.html:195
+msgid "20"
+msgstr "20"
+
+#: templates/includes/nl/main.html:196
+msgid "23"
+msgstr "23"
+
+#: templates/includes/nl/main.html:197
+msgid "28"
+msgstr "28"
+
+#: templates/includes/nl/main.html:198
+msgid "80"
+msgstr "80"
+
+#: templates/includes/nl/main.html:200
+msgid "3"
+msgstr "3"
+
+#: templates/includes/nl/main.html:201
+msgid "1.6"
+msgstr "1,6"
+
+#: templates/includes/nl/main.html:204
+msgid "Entire Route"
+msgstr "Volledige Route"
+
+#: templates/includes/nl/main.html:206
+msgid "45"
+msgstr "45"
+
+#: templates/includes/nl/main.html:207
+msgid "55"
+msgstr "55"
+
+#: templates/includes/nl/main.html:208
+msgid "150"
+msgstr "150"
+
+#: templates/includes/nl/main.html:209
+msgid "35"
+msgstr "35"
+
+#: templates/includes/nl/main.html:210
+msgid "6"
+msgstr "6"
+
+#~ msgid "Strong Coffee, Strong Roots"
+#~ msgstr "Sterke Koffie, Diepe Wortels"
+
+#~ msgid "About Our Cafe"
+#~ msgstr "Over Ons Café"
+
+#~ msgid ""
+#~ "Founded in 1987 by the Hernandez "
+#~ "brothers, our establishment has been "
+#~ "serving up rich coffee sourced from "
+#~ "artisan farmers in various regions of"
+#~ " South and Central America. We are"
+#~ " dedicated to travelling the world, "
+#~ "finding the best coffee, and bringing"
+#~ " back to you here in our cafe."
+#~ msgstr ""
+#~ "Opgericht in 1987 door de gebroeders "
+#~ "Hernandez, ons etablissement heeft al "
+#~ "die tijd rijke koffie aangeboden die "
+#~ "afkomstig is van ambachtelijke boeren "
+#~ "uit verschillende regio's van Zuid- en"
+#~ " Centraal-Amerika. Wij zijn toegewijd "
+#~ "aan het reizen over de wereld, het"
+#~ " vinden van de beste koffie, en "
+#~ "deze terug te brengen naar u hier"
+#~ " in ons café."
+
+#~ msgid "We guarantee that you will fall in "
+#~ msgstr "Wij garanderen dat u zult vallen in "
+
+#~ msgid "love"
+#~ msgstr "liefde"
+
+#~ msgid ""
+#~ "with our decadent blends the moment "
+#~ "you walk inside until you finish "
+#~ "your last sip. Join us for your"
+#~ " daily routine, an outing with "
+#~ "friends, or simply just to enjoy "
+#~ "some alone time."
+#~ msgstr ""
+#~ "voor onze decadente melanges vanaf het"
+#~ " moment dat u binnenloopt totdat u"
+#~ " uw laatste slok op heeft. Sluit "
+#~ "u bij ons aan voor uw dagelijkse"
+#~ " routine, een uitje met vrienden, of"
+#~ " gewoon om wat alleen tijd te "
+#~ "genieten."
+
+#~ msgid "lust"
+#~ msgstr "verlangen"
+
+#~ msgid "We guarantee that you will "
+#~ msgstr "Wij garanderen dat u zult "
+
+#~ msgid "yearn for"
+#~ msgstr "verlangen naar"
+
+#~ msgid ""
+#~ "our decadent blends the moment you "
+#~ "walk inside until you finish your "
+#~ "last sip. Join us for your daily"
+#~ " routine, an outing with friends, or"
+#~ " simply just to enjoy some alone "
+#~ "time."
+#~ msgstr ""
+#~ "naar onze decadente melanges vanaf het"
+#~ " moment dat u binnenloopt totdat u"
+#~ " uw laatste slok op heeft. Sluit "
+#~ "u bij ons aan voor uw dagelijkse"
+#~ " routine, een uitje met vrienden, of"
+#~ " gewoon om wat alleen tijd te "
+#~ "genieten."
+
+#~ msgid "desire"
+#~ msgstr "begeerte"
+
+#~ msgid ""
+#~ "The Wild Atlantic Way route from "
+#~ "start to finish unfolds the wonders "
+#~ "of nature,\n"
+#~ "        the power of the ocean and"
+#~ " its imprint on the west coast "
+#~ "of Ireland,\n"
+#~ "        and the stunning countryside in all its diversity.\n"
+#~ "        Enchanting villages are nestled "
+#~ "along the coast as well as ancient"
+#~ " monuments, \n"
+#~ "        their origins having long sunk"
+#~ " into the mists of oblivion dot "
+#~ "the landscape.\n"
+#~ "        Behind every bend on this "
+#~ "magical coastal road a new delight "
+#~ "awaits."
+#~ msgstr ""
+#~ "De route van de Wild Atlantic Way"
+#~ " onthult van begin tot eind de "
+#~ "wonderen van de natuur,\n"
+#~ "        de kracht van de oceaan en"
+#~ " haar invloed op de westkust van "
+#~ "Ierland,\n"
+#~ "        en het verbluffende platteland in al zijn diversiteit.\n"
+#~ "        Betoverende dorpjes liggen genesteld"
+#~ " langs de kust, evenals oude "
+#~ "monumenten, \n"
+#~ "        waarvan de oorsprong lang "
+#~ "verloren is gegaan in de nevelen "
+#~ "van de vergetelheid, die het landschap"
+#~ " stippen.\n"
+#~ "        Achter elke bocht op deze "
+#~ "magische kustweg wacht een nieuwe "
+#~ "verrassing."
+
+#~ msgid ""
+#~ "The wild Atlantic with its unrestrained"
+#~ " and untameable tides and storms, \n"
+#~ "        has continuously been moulding the west coast of Ireland.\n"
+#~ "        With a constant meeting of water and land,\n"
+#~ "        a deeply indented and wild "
+#~ "terrain has emerged with towering "
+#~ "cliffs,\n"
+#~ "        spellbinding bays and beaches, "
+#~ "mystical islands, always changing and "
+#~ "never reaching the end.\n"
+#~ "        In the isolation or perhaps expressed in a different way,\n"
+#~ "        living near and with the "
+#~ "Atlantic at your doorstep has ensured"
+#~ " that old traditions and the Irish"
+#~ " language have been preserved.\n"
+#~ "        A trip along the Wild "
+#~ "Atlantic Way is also an encounter "
+#~ "with the past."
+#~ msgstr ""
+#~ "De wilde Atlantische Oceaan met zijn ongetemde getijden en stormen,\n"
+#~ "        heeft continu de westkust van Ierland gevormd.\n"
+#~ "        Met een constante ontmoeting van water en land,\n"
+#~ "        is een diep ingesneden en "
+#~ "wild terrein ontstaan met torenhoge "
+#~ "kliffen,\n"
+#~ "        betoverende baaien en stranden, "
+#~ "mystieke eilanden, altijd veranderend en "
+#~ "nooit een einde bereikend.\n"
+#~ "        In de isolatie, of misschien anders uitgedrukt,\n"
+#~ "        leven dichtbij en met de "
+#~ "Atlantische Oceaan op je drempel heeft"
+#~ " ervoor gezorgd dat oude tradities en"
+#~ " de Ierse taal bewaard zijn gebleven."
+#~ "\n"
+#~ "        Een reis langs de Wild "
+#~ "Atlantic Way is ook een ontmoeting "
+#~ "met het verleden."
 
