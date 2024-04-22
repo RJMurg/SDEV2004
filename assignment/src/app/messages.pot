@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-22 22:25+0100\n"
+"POT-Creation-Date: 2024-04-22 22:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,12 +26,12 @@ msgstr ""
 msgid "The Wild Atlantic Way"
 msgstr ""
 
-#: templates/includes/en/main.html:56 templates/includes/ko_kr/main.html:56
+#: templates/includes/en/main.html:56 templates/includes/ko_kr/main.html:77
 #: templates/includes/nl/main.html:56
 msgid "Welcome to the Wild Atlantic Way!"
 msgstr ""
 
-#: templates/includes/en/main.html:60 templates/includes/ko_kr/main.html:60
+#: templates/includes/en/main.html:60 templates/includes/ko_kr/main.html:81
 #: templates/includes/nl/main.html:60
 msgid ""
 "The Wild Atlantic Way, 2,600km in length,\n"
@@ -41,7 +41,7 @@ msgid ""
 "        down to the picturesque town of Kinsale, County Cork in the south."
 msgstr ""
 
-#: templates/includes/en/main.html:69 templates/includes/ko_kr/main.html:69
+#: templates/includes/en/main.html:69 templates/includes/ko_kr/main.html:90
 #: templates/includes/nl/main.html:69
 msgid "Discover the Wild Atlantic Way"
 msgstr ""
@@ -54,8 +54,7 @@ msgstr ""
 msgid "Discover Today!"
 msgstr ""
 
-#: templates/includes/en/main.html:90 templates/includes/ko_kr/main.html:135
-#: templates/includes/nl/main.html:90
+#: templates/includes/en/main.html:90 templates/includes/nl/main.html:90
 msgid ""
 "The Wild Atlantic Way route from start to finish unfolds the wonders of "
 "nature, the power of the ocean and its imprint on the west coast of "
@@ -65,8 +64,7 @@ msgid ""
 "Behind every bend on this magical coastal road a new delight awaits."
 msgstr ""
 
-#: templates/includes/en/main.html:96 templates/includes/ko_kr/main.html:141
-#: templates/includes/nl/main.html:96
+#: templates/includes/en/main.html:96 templates/includes/nl/main.html:96
 msgid ""
 "The wild Atlantic with its unrestrained and untameable tides and storms, "
 "has continuously been moulding the west coast of Ireland. With a constant"
@@ -79,41 +77,41 @@ msgid ""
 "encounter with the past."
 msgstr ""
 
-#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:149
+#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:172
 #: templates/includes/nl/main.html:104
 msgid "The Wild Atlantic Way Route"
 msgstr ""
 
-#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:160
+#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:184
 #: templates/includes/nl/main.html:115
 msgid "Must-See Sights of the Wild Atlantic Way"
 msgstr ""
 
-#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:164
+#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:188
 #: templates/includes/nl/main.html:119
 msgid ""
 "Need inspiration? Explore some of the must-see highlights of the Wild "
 "Atlantic Way:"
 msgstr ""
 
-#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:197
+#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:221
 #: templates/includes/nl/main.html:152
 msgid "Your Wild Atlantic Way Travel Guide"
 msgstr ""
 
-#: templates/includes/en/main.html:156 templates/includes/ko_kr/main.html:201
+#: templates/includes/en/main.html:156 templates/includes/ko_kr/main.html:225
 msgid "Use our handy travel planner to plan your life-changing road trip!"
 msgstr ""
 
-#: templates/includes/en/main.html:164 templates/includes/ko_kr/main.html:209
+#: templates/includes/en/main.html:164 templates/includes/ko_kr/main.html:233
 msgid "Starting Location"
 msgstr ""
 
-#: templates/includes/en/main.html:185 templates/includes/ko_kr/main.html:230
+#: templates/includes/en/main.html:185 templates/includes/ko_kr/main.html:254
 msgid "Ending Location"
 msgstr ""
 
-#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:252
+#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:276
 msgid "Submit!"
 msgstr ""
 
@@ -154,40 +152,75 @@ msgstr ""
 msgid "Dutch"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:73
+#: templates/includes/ko_kr/main.html:94
 msgid "Build your own custom itinerary with our advanced checklist system!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:82
+#: templates/includes/ko_kr/main.html:103
 msgid "Build your list!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:87
+#: templates/includes/ko_kr/main.html:108
 msgid "Our most popular list!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:93
+#: templates/includes/ko_kr/main.html:114
 msgid "Visit the White Cliffs of Moher!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:100
+#: templates/includes/ko_kr/main.html:121
 msgid "Travel the Ring of Kerry!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:107
+#: templates/includes/ko_kr/main.html:128
 msgid "See the Skelling Michael!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:114
+#: templates/includes/ko_kr/main.html:135
 msgid "Walk through the beautiful Galway City!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:121
+#: templates/includes/ko_kr/main.html:142
 msgid "Enjoy the beautiful Traditional Music Session!"
 msgstr ""
 
-#: templates/includes/ko_kr/main.html:127
+#: templates/includes/ko_kr/main.html:148
 msgid "Download Your List!"
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:158
+msgid ""
+"The Wild Atlantic Way route showcases nature’s wonders, the ocean’s "
+"power, and diverse countryside along Ireland’s west coast."
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:159
+msgid ""
+"Enchanting villages and ancient monuments, steeped in history, dot the "
+"coastal landscape."
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:160
+msgid ""
+"Each bend of the magical coastal road reveals new delights awaiting "
+"discovery."
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:161
+msgid ""
+"The wild Atlantic shapes Ireland’s west coast with its unrestrained tides"
+" and storms, creating a landscape of towering cliffs, spellbinding bays "
+"and beaches, and mystical islands."
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:162
+msgid ""
+"Living close to the Atlantic has helped preserve old traditions and the "
+"Irish language."
+msgstr ""
+
+#: templates/includes/ko_kr/main.html:163
+msgid "A journey along the Wild Atlantic Way is an encounter with the past."
 msgstr ""
 
 #: templates/includes/nl/main.html:156

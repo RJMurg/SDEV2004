@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-22 22:25+0100\n"
+"POT-Creation-Date: 2024-04-22 22:42+0100\n"
 "PO-Revision-Date: 2024-04-21 19:58+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko_KR\n"
@@ -27,12 +27,12 @@ msgstr "루안 머가트로이드가 ❤️(그리고 플라스크)로 만들었
 msgid "The Wild Atlantic Way"
 msgstr "와일드 애틀랜틱 웨이"
 
-#: templates/includes/en/main.html:56 templates/includes/ko_kr/main.html:56
+#: templates/includes/en/main.html:56 templates/includes/ko_kr/main.html:77
 #: templates/includes/nl/main.html:56
 msgid "Welcome to the Wild Atlantic Way!"
 msgstr "와일드 애틀랜틱 웨이에 오신 것을 환영합니다!"
 
-#: templates/includes/en/main.html:60 templates/includes/ko_kr/main.html:60
+#: templates/includes/en/main.html:60 templates/includes/ko_kr/main.html:81
 #: templates/includes/nl/main.html:60
 msgid ""
 "The Wild Atlantic Way, 2,600km in length,\n"
@@ -44,7 +44,7 @@ msgstr ""
 "와일드 애틀랜틱 웨이는 길이가 2,600km에 달하며, 세계에서 가장 긴 해안 경로 중 하나입니다.\n"
 "        이 경로는 북쪽의 이니쇼웬 반도부터 남쪽의 킨세일, 코크 주의 아름다운 마을까지 아일랜드 서해안을 따라 이어집니다."
 
-#: templates/includes/en/main.html:69 templates/includes/ko_kr/main.html:69
+#: templates/includes/en/main.html:69 templates/includes/ko_kr/main.html:90
 #: templates/includes/nl/main.html:69
 msgid "Discover the Wild Atlantic Way"
 msgstr "와일드 애틀랜틱 웨이를 발견하세요"
@@ -57,8 +57,7 @@ msgstr "인생 최고의 로드 트립을 즐기며 와일드 애틀랜틱 웨�
 msgid "Discover Today!"
 msgstr "오늘 바로 탐험하세요!"
 
-#: templates/includes/en/main.html:90 templates/includes/ko_kr/main.html:135
-#: templates/includes/nl/main.html:90
+#: templates/includes/en/main.html:90 templates/includes/nl/main.html:90
 #, fuzzy
 msgid ""
 "The Wild Atlantic Way route from start to finish unfolds the wonders of "
@@ -72,8 +71,7 @@ msgstr ""
 "보입니다. 또한 다양한 시골 풍경과 마법 같은 해안 도로를 따라 자리 잡은 매혹적인 마을들과 오랜 세월 동안 잊혀져 가는 안개 속에"
 " 묻혀있던 고대 기념물들이 풍경을 점점이 이룹니다. 이 신비로운 해안 도로의 모든 굽이마다 새로운 즐거움이 기다리고 있습니다."
 
-#: templates/includes/en/main.html:96 templates/includes/ko_kr/main.html:141
-#: templates/includes/nl/main.html:96
+#: templates/includes/en/main.html:96 templates/includes/nl/main.html:96
 #, fuzzy
 msgid ""
 "The wild Atlantic with its unrestrained and untameable tides and storms, "
@@ -91,41 +89,41 @@ msgstr ""
 "고립되었거나 다르게 표현되었을 수 있는 이 지역에서 대서양과 가까이 살아가는 것은 오래된 전통과 아일랜드어가 보존될 수 있게 "
 "해주었습니다. 와일드 애틀랜틱 웨이를 따라가는 여행은 과거와의 만남이기도 합니다."
 
-#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:149
+#: templates/includes/en/main.html:104 templates/includes/ko_kr/main.html:172
 #: templates/includes/nl/main.html:104
 msgid "The Wild Atlantic Way Route"
 msgstr "와일드 애틀랜틱 웨이 루트"
 
-#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:160
+#: templates/includes/en/main.html:115 templates/includes/ko_kr/main.html:184
 #: templates/includes/nl/main.html:115
 msgid "Must-See Sights of the Wild Atlantic Way"
 msgstr "와일드 애틀랜틱 웨이의 필수 관광지"
 
-#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:164
+#: templates/includes/en/main.html:119 templates/includes/ko_kr/main.html:188
 #: templates/includes/nl/main.html:119
 msgid ""
 "Need inspiration? Explore some of the must-see highlights of the Wild "
 "Atlantic Way:"
 msgstr "영감이 필요하신가요? 와일드 애틀랜틱 웨이의 주요 관광지를 탐험해 보세요:"
 
-#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:197
+#: templates/includes/en/main.html:152 templates/includes/ko_kr/main.html:221
 #: templates/includes/nl/main.html:152
 msgid "Your Wild Atlantic Way Travel Guide"
 msgstr "당신의 와일드 애틀랜틱 웨이 여행 가이드"
 
-#: templates/includes/en/main.html:156 templates/includes/ko_kr/main.html:201
+#: templates/includes/en/main.html:156 templates/includes/ko_kr/main.html:225
 msgid "Use our handy travel planner to plan your life-changing road trip!"
 msgstr "당신의 인생을 바꿀 로드 트립을 계획하기 위해 우리의 편리한 여행 플래너를 사용하세요!"
 
-#: templates/includes/en/main.html:164 templates/includes/ko_kr/main.html:209
+#: templates/includes/en/main.html:164 templates/includes/ko_kr/main.html:233
 msgid "Starting Location"
 msgstr "시작 위치"
 
-#: templates/includes/en/main.html:185 templates/includes/ko_kr/main.html:230
+#: templates/includes/en/main.html:185 templates/includes/ko_kr/main.html:254
 msgid "Ending Location"
 msgstr "종료 위치"
 
-#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:252
+#: templates/includes/en/main.html:207 templates/includes/ko_kr/main.html:276
 msgid "Submit!"
 msgstr "제출하기!"
 
@@ -166,41 +164,77 @@ msgstr "한국어"
 msgid "Dutch"
 msgstr "네덜란드어"
 
-#: templates/includes/ko_kr/main.html:73
+#: templates/includes/ko_kr/main.html:94
 msgid "Build your own custom itinerary with our advanced checklist system!"
 msgstr "고급 체크리스트 시스템으로 나만의 맞춤 여행 일정을 짜보세요!"
 
-#: templates/includes/ko_kr/main.html:82
+#: templates/includes/ko_kr/main.html:103
 msgid "Build your list!"
 msgstr "리스트를 만드세요!"
 
-#: templates/includes/ko_kr/main.html:87
+#: templates/includes/ko_kr/main.html:108
 msgid "Our most popular list!"
 msgstr "가장 인기 있는 리스트입니다!"
 
-#: templates/includes/ko_kr/main.html:93
+#: templates/includes/ko_kr/main.html:114
 msgid "Visit the White Cliffs of Moher!"
 msgstr "모허의 흰 절벽을 방문하세요!"
 
-#: templates/includes/ko_kr/main.html:100
+#: templates/includes/ko_kr/main.html:121
 msgid "Travel the Ring of Kerry!"
 msgstr "케리 반도를 여행하세요!"
 
-#: templates/includes/ko_kr/main.html:107
+#: templates/includes/ko_kr/main.html:128
 msgid "See the Skelling Michael!"
 msgstr "스켈리그 마이클을 구경하세요!"
 
-#: templates/includes/ko_kr/main.html:114
+#: templates/includes/ko_kr/main.html:135
 msgid "Walk through the beautiful Galway City!"
 msgstr "아름다운 갤웨이 시를 거닐어 보세요!"
 
-#: templates/includes/ko_kr/main.html:121
+#: templates/includes/ko_kr/main.html:142
 msgid "Enjoy the beautiful Traditional Music Session!"
 msgstr "아름다운 전통 음악 세션을 즐기세요!"
 
-#: templates/includes/ko_kr/main.html:127
+#: templates/includes/ko_kr/main.html:148
 msgid "Download Your List!"
 msgstr "리스트를 다운로드하세요!"
+
+#: templates/includes/ko_kr/main.html:158
+msgid ""
+"The Wild Atlantic Way route showcases nature’s wonders, the ocean’s "
+"power, and diverse countryside along Ireland’s west coast."
+msgstr "와일드 애틀랜틱 웨이 루트는 아일랜드 서해안을 따라 자연의 경이로움과 바다의 힘, 다양한 시골 풍경을 선보입니다."
+
+#: templates/includes/ko_kr/main.html:159
+msgid ""
+"Enchanting villages and ancient monuments, steeped in history, dot the "
+"coastal landscape."
+msgstr "매력적인 마을과 역사가 깊은 고대 기념물이 해안 풍경을 점점이 이룹니다."
+
+#: templates/includes/ko_kr/main.html:160
+msgid ""
+"Each bend of the magical coastal road reveals new delights awaiting "
+"discovery."
+msgstr "마법 같은 해안 도로의 각 굽이가 새로운 즐거움을 발견할 기회를 제공합니다."
+
+#: templates/includes/ko_kr/main.html:161
+msgid ""
+"The wild Atlantic shapes Ireland’s west coast with its unrestrained tides"
+" and storms, creating a landscape of towering cliffs, spellbinding bays "
+"and beaches, and mystical islands."
+msgstr "거친 대서양은 제어할 수 없는 조수와 폭풍으로 아일랜드 서해안을 형성하여 솟아오른 절벽, 매혹적인 만과 해변, 신비로운 섬들의 풍경을 만들어냅니다."
+
+#: templates/includes/ko_kr/main.html:162
+msgid ""
+"Living close to the Atlantic has helped preserve old traditions and the "
+"Irish language."
+msgstr "대서양에 가까이 살면서 오래된 전통과 아일랜드어가 보존될 수 있었습니다."
+
+#: templates/includes/ko_kr/main.html:163
+msgid "A journey along the Wild Atlantic Way is an encounter with the past."
+msgstr "와일드 애틀랜틱 웨이를 여행하는 것은 과거와의 만남입니다."
+
 
 #: templates/includes/nl/main.html:156
 #, fuzzy

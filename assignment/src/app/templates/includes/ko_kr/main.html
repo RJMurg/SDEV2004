@@ -22,6 +22,15 @@
         background-image: url('{{ url_for('static', filename='assets/img/cliffs-of-moher.webp') }}');
     }
 
+    ul{
+        text-align: left;
+    }
+
+    ul li{
+        padding: 1rem;
+        font-weight: 800;
+    }
+
     .discoverbox{
         background: url("{{ url_for('static', filename='assets/img/' + lang_code +'/pic3.webp') }}");
 
@@ -32,6 +41,18 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    body{
+        background-color: var(--grey-6) !important;
+    }
+
+    .paddedbox{
+        background-color: var(--grey-6);
+    }
+
+    footer{
+        background-color: var(--grey-6);
     }
 
     .planbox{
@@ -130,28 +151,31 @@
     </p>
 </div>
 
-<div class="halfwide paddedbox horizontal">
-    <div class="halfwide">
-        {{_('The Wild Atlantic Way route from start to finish unfolds the wonders of nature, the power of the ocean and its imprint on the west coast of Ireland, and the stunning countryside in all its diversity. Enchanting villages are nestled along the coast as well as ancient monuments, their origins having long sunk into the mists of oblivion dot the landscape. Behind every bend on this magical coastal road a new delight awaits.')}}
-        
-        <br>
-        <br>
-        <br>
+<div class="paddedbox">
+    <div class="halfwide horizontal">
+        <div class="halfwide">
+            <ul>
+                <li>{{_('The Wild Atlantic Way route showcases nature’s wonders, the ocean’s power, and diverse countryside along Ireland’s west coast.')}}</li>
+                <li>{{_('Enchanting villages and ancient monuments, steeped in history, dot the coastal landscape.')}}</li>
+                <li>{{_('Each bend of the magical coastal road reveals new delights awaiting discovery.')}}</li>
+                <li>{{_('The wild Atlantic shapes Ireland’s west coast with its unrestrained tides and storms, creating a landscape of towering cliffs, spellbinding bays and beaches, and mystical islands.')}}</li>
+                <li>{{_('Living close to the Atlantic has helped preserve old traditions and the Irish language.')}}</li>
+                <li>{{_('A journey along the Wild Atlantic Way is an encounter with the past.')}}</li>
+              </ul>              
 
-        {{_('The wild Atlantic with its unrestrained and untameable tides and storms, has continuously been moulding the west coast of Ireland. With a constant meeting of water and land, a deeply indented and wild terrain has emerged with towering cliffs, spellbinding bays and beaches, mystical islands, always changing and never reaching the end. In the isolation or perhaps expressed in a different way, living near and with the Atlantic at your doorstep has ensured that old traditions and the Irish language have been preserved. A trip along the Wild Atlantic Way is also an encounter with the past.')}}
+            <br>
+            <br>
+            <br>
 
-        <br>
-        <br>
-        <br>
+            <a href="/routes" class="blue">
+                <i class="fa-solid fa-arrow-right"></i>
+                {{_('The Wild Atlantic Way Route')}}
+            </a>
+        </div>
 
-        <a href="/routes" class="blue">
-            <i class="fa-solid fa-arrow-right"></i>
-            {{_('The Wild Atlantic Way Route')}}
-        </a>
-    </div>
-
-    <div class="halfwide">
-        <img src="{{ url_for('static', filename='assets/img/waw-map.png') }}"/>
+        <div class="halfwide">
+            <img src="{{ url_for('static', filename='assets/img/waw-map.png') }}"/>
+        </div>
     </div>
 </div>
 
