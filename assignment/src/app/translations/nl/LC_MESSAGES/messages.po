@@ -53,8 +53,8 @@ msgid "Discover the Wild Atlantic Way"
 msgstr "Ontdek de Wild Atlantic Way"
 
 #: templates/includes/en/main.html:73 templates/includes/nl/main.html:73
-msgid "Enjoy the road trip of your life, and discover the Wild Atlantic Way"
-msgstr "Geniet van de roadtrip van je leven en ontdek de Wild Atlantic Way"
+msgid "Use our handy travel planner to plan your life-changing sustainable bus tour!"
+msgstr "Gebruik onze handige reisplanner om uw levensveranderende duurzame bustour te plannen!"
 
 #: templates/includes/en/main.html:82 templates/includes/nl/main.html:82
 msgid "Discover Today!"
