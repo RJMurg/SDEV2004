@@ -23,7 +23,7 @@
     }
 
     .discoverbox{
-        background: url("{{ url_for('static', filename='assets/img/' + lang_code +'/pic2.webp') }}");
+        background: url("{{ url_for('static', filename='assets/img/' + lang_code +'/pic3.webp') }}");
 
         min-height: 500px;
         width: 100%;
@@ -35,7 +35,7 @@
     }
 
     .planbox{
-        background: url("{{ url_for('static', filename='assets/img/' + lang_code +'/pic3.webp') }}");
+        background: url("{{ url_for('static', filename='assets/img/' + lang_code +'/pic2.webp') }}");
 
         min-height: 500px;
         width: 100%;
@@ -46,6 +46,10 @@
         background-size: cover;
     }
 </style>
+
+<div class="chat">
+    <i class="fa-solid fa-comments medium"></i>
+</div>
 
 <div class="paddedbox" id="main">
     <h1 class="title medium">
@@ -66,7 +70,7 @@
     </h1>
 
     <p class="medium white bold">
-        {{_('Enjoy the road trip of your life, and discover the Wild Atlantic Way')}}
+        {{_('Build your own custom itinerary with our advanced checklist system!')}}
 
         <br>
         <br>
@@ -74,10 +78,55 @@
 
         <form action="/discover">
             <button class="discoverbutton large">
-                <i class="fa-solid fa-compass"></i>
-                {{_('Discover Today!')}}
+                <i class="fa-solid fa-clipboard-list"></i>
+                {{_('Build your list!')}}
             </button>
         </form>
+
+        <h1 class="title medium white">
+            {{_('Our most popular list!')}}
+        </h1>
+        <div>
+            <div class="checkbox-item">
+                <input class="checkbox" name="Spanish Point" type="checkbox"/>
+                <label class="white bold" for="Spanish Point">
+                    {{_('Visit the White Cliffs of Moher!')}}
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input class="checkbox" name="Ring of Kerry" type="checkbox"/>
+                <label class="white bold" for="Ring of Kerry">
+                    {{_('Travel the Ring of Kerry!')}}
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input class="checkbox" name="Skellig Michael" type="checkbox"/>
+                <label class="white bold" for="Skellig Michael">
+                    {{_('See the Skelling Michael!')}}
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input class="checkbox" name="Galway City" type="checkbox"/>
+                <label class="white bold" for="Galway City">
+                    {{_('Walk through the beautiful Galway City!')}}
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input class="checkbox" name="Trad Sesh" type="checkbox"/>
+                <label class="white bold" for="Trad Sesh">
+                    {{_('Enjoy the beautiful Traditional Music Session!')}}
+                </label>
+            </div>
+
+            <button class="discoverbutton medium">
+                <i class="fa-solid fa-download"></i>
+                {{_('Download Your List!')}}
+            </button>
+        </div>
     </p>
 </div>
 
