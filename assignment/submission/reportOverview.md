@@ -35,6 +35,7 @@
 ## 5. Prototype
 - Physical Demo
 - Browser
+- Use of git
 - Deployment from source
 - VPS deployment
 - Future steps
