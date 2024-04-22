@@ -23,16 +23,19 @@
                 {{_('Map')}}
             </a>
         </li>
-        <li class="language-selector">
-            <button class="dropdown-button" onclick="toggleDropdown()" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-language"></i>
-                Language
-                <i class="fa-solid fa-caret-down"></i>
-            </button>
-            <div class="dropdown-menu" id="language-dropdown" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a>
-                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='ko_kr') }}">{{_('Korean')}}</a>
-                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='nl') }}">{{ _('Dutch')}}</a>
+        <li>
+            <div class="horizontal medium">
+                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">
+                    <img class="lang-img" src="{{ url_for('static', filename='assets/img/ie-flag.svg') }}"/>
+                </a>
+                /
+                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='ko_kr') }}">
+                    <img class="lang-img" src="{{ url_for('static', filename='assets/img/sk-flag.webp') }}"/>
+                </a>
+                /
+                <a class="dropdown-item" href="{{ url_for('set_language', lang_code='nl') }}">
+                    <img class="lang-img" src="{{ url_for('static', filename='assets/img/nl-flag.webp') }}"/>
+                </a>
             </div>
         </li>
     </ul>
