@@ -1,5 +1,5 @@
 - Sleek, modern website
-- Low-frustration cookies, etc.
+- Low-friction cookies, etc.
 - Language L10n
 - Differing photo & text content / focuses
 - Trip planners

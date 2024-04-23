@@ -23,7 +23,7 @@ def discover():
 @app.route('/shop')
 def shop():
     return (render_template ("shop.html"))
-    
+
 @app.route('/planner')
 def planner():
     return (render_template ("planner.html"))
@@ -40,4 +40,3 @@ def set_language(lang_code):
     session["language"] = lang_code
 #refresh the page from which the set language request was made
     return redirect(request.referrer)
-
